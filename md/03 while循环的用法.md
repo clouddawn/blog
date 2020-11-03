@@ -88,6 +88,6 @@ do...while可以保证循环体至少执行一次，而while不能。
         m = m * 1.05;
         n++;
     }
-    alert(n);
+    alert("一共需要"+n+"年");
 ```
 </font>
