@@ -90,7 +90,8 @@ do...while可以保证循环体至少执行一次，而while不能。
     }
     alert("一共需要"+n+"年");
 ```
-2. ```javascript
+2. 
+```javascript
         var s = prompt("请输入你的成绩：");
         while(true){
             if(s>=0 && s<=100){
