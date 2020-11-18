@@ -2,41 +2,18 @@
     margin: 0;
     padding: 0;
 }
-.ex1 {
-    height: 500px;
-    width: 1000px;
-    border: 20px solid red;
-    margin: 100px;
-    position: relative;
-}
-.ex2 {
-    height: 150px;
-    width: 300px;
-    border: 20px solid blue;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -95px;
-    margin-left: -170px;
-}
-.all {
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
 .box1 {
-    height: 200px;
     width: 200px;
-    border: 5px solid red;
+    height: 200px;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 50px;
 }
 .box2 {
-    height: 200px;
     width: 200px;
-    border: 5px solid green;
-    position: relative;
-    top: 100px;
-}
-.box3 {
     height: 200px;
-    width: 200px;
-    border: 5px solid blue;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 50px;
+    box-sizing: border-box;
 }
