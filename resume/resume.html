@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clouddawn的个人简历</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="topNavBar clearfix">
+        <a href="#">
+            <span class="orange">RS</span>
+            card
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">关于</a></li>
+                <li><a href="#">经历</a></li>
+                <li><a href="#">技能</a></li>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">作品</a></li>
+                <li><a href="#">联系方式</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+    <div class="userCard">
+        <div class="userIn clearfix">
+            <div class="picture">
+                <img src="images/head.jpg" alt="头像">
+            </div>
+            <div class="text">
+                <span class="welcome">Hello
+                    <span class="triangle"></span>
+                </span>
+                <div class="introduction">
+                    <h1>Clouddawn</h1>
+                    <p>前端工程师</p>
+                </div>
+                <hr>
+                <dl class="clearfix">
+                    <dt>年龄</dt>
+                    <dd>20</dd>
+                    <dt>手机</dt>
+                    <dd>11111111111</dd>
+                    <dt>邮箱</dt>
+                    <dd>1111111111@qq.com</dd>
+                </dl>
+            </div> 
+        </div> 
+        <!--联系方式图标-->
+        <script src="//at.alicdn.com/t/font_2204883_w6585csa9ad.js"></script>
+        <style type="text/css">
+            .icon {
+               width: 1em; height: 1em;
+               vertical-align: -0.15em;
+               fill: currentColor;
+               overflow: hidden;
+            }
+        </style>
+        <!---->
+        <footer class="media">
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=1993456181&site=qq&menu=yes" target="_blank" title="点击这里给我发消息">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-qq"></use>
+                </svg>
+            </a>
+            <a href="#" target="_blank">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin1"></use>
+                </svg>
+            </a>
+            <a href="https://github.com/clouddawn">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            <a href="https://www.zhihu.com/column/c_1305536102414241792" target="_blank" title="知乎前端专栏">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-zhihu"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixingongzhonghao"></use>
+                </svg>
+            </a>
+        </footer>
+    </div>
+    <div class="downloadButton_Wrapper">
+        <a class="downloadButton" href="document/clouddawn.pdf" target="_blank" download="">下载PDF简历</a>
+    </div>
+    <p class="selfInduction">clouddawn，前端工程师<br>
+        技能：html&nbsp; &nbsp;css&nbsp; &nbsp;javascript&nbsp; &nbsp;git&nbsp; &nbsp;node.js
+    </p>
+    <section class="skills">
+        <h2>技能</h2>
+        <ol class="clearFix">
+            <li>
+                HTML 5 &amp; CSS 3
+                <div class="progressBar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </li>
+            <li>
+                JavaScript
+                <div class="progressBar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </li>
+            <li>
+                jQuery
+                <div class="progressBar">
+                    <div class="progress" style="width: 20%"></div>
+                </div>
+            </li>
+            <li>
+                Vue
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                React
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                HTTP
+                <div class="progressBar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </li>
+        </ol>
+    </section>
+    <section class="portfolio">
+        <h2>作品集</h2>
+        <nav>
+            <ol class="clearFix">
+                <li id="portfolio1">所有</li>
+                <li id="portfolio2">框架</li>
+                <li id="portfolio3">原生JS&amp;CSS</li>
+            </ol>
+            <div class="bar">
+                <div id="portfolioBar" class="bar-inner state-1"></div>
+            </div>
+        </nav>
+        <script>
+            portfolio1.onclick = function(){
+                portfolioBar.className='bar-inner state-1'
+            }
+            portfolio2.onclick = function(){
+                portfolioBar.className='bar-inner state-2'
+            }
+            portfolio3.onclick = function(){
+                portfolioBar.className='bar-inner state-3'
+            }
+        </script>
+        <div class="works">
+            <div class="work1">
+                <img src="images/work1.jpg" alt="作品1">
+            </div>
+            <div class="work2">
+                <img src="images/work2.jpg" alt="作品2">
+            </div>
+            <div class="work3">
+                <img src="images/work3.jpg" alt="作品3">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
