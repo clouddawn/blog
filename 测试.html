@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <iframe src="https://alibaba.com" frameborder="1"></iframe>
+    <script>
+        outer:
+        for(var i=0; i<5; i++){
+            for(var j=0; j<3; j++){ 
+                continue outer;
+                console.log("内层"+j);                
+            }
+            console.log("@外层循环"+i);
+        }
+
+    </script>
 </body>
 </html>
