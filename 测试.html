@@ -8,14 +8,18 @@
 </head>
 <body>
     <script>
-        outer:
-        for(var i=0; i<5; i++){
-            for(var j=0; j<3; j++){ 
-                continue outer;
-                console.log("内层"+j);                
-            }
-            console.log("@外层循环"+i);
-        }
+        var obj = new Object();
+        obj.name = "孙悟空";
+        obj.gender = "男";
+        obj.age = 18;
+        // console.log(obj);
+        // console.log(obj.name);
+        // console.log(obj.gender);
+        // console.log(obj.age);
+
+        obj.name = "Tom";
+        delete obj.name;
+        console.log(obj.name);
 
     </script>
 </body>
