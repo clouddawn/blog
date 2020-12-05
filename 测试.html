@@ -8,31 +8,38 @@
 </head>
 <body>
     <script>
- 
-        // function isLeapYear(year){
-        //     var flag = false;
-        //     if(year%4==0 && year%100!=0 || year%400==0){
-        //         flag = true;
-        //     }
-        //     return flag;
-        // }
-        // var year = prompt('请输入想查看的年份：');
-        // function backDay(){
-        //     if(isLeapYear(year)){
-        //         alert(year+'年是闰年，2月份有29天。');
-        //     }else{
-        //         alert(year+'年是平年，2月份有28天。');
-        //     }
-        // }
-        // backDay();
 
-        var num = 10;
-        function fn(){
-            var num = 20;
-            console.log(num);
+        // var num = 10;
+        // function fn(){
+        //     console.log(num);
+        //     var num = 20;
+        //     console.log(num);
+        // }
+        // fn();
+
+        f1();
+        console.log(c);
+        console.log(b);
+        console.log(a);
+        function f1(){
+            var a = b = c = 9;
+            console.log(a);
+            console.log(b);
+            console.log(c);
         }
-        fn();
-        console.log(num);
+        // // 相当于执行了以下代码
+        // function f1(){
+        //     var a;
+        //     a = b = c = 9;
+        //     // b, c 未声明，直接赋值，为全局变量
+        //     console.log(a);
+        //     console.log(b);
+        //     console.log(c);
+        // }
+        // f1();
+        // console.log(c);
+        // console.log(b);
+        // console.log(a);
 
     </script>
 </body>
