@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="all clearfix">
-        <ul>
-            <li class="item1"></li>
-            <li class="item2"></li>
-            <li class="item3"></li>
-            <li class="item4"></li>
-            <li class="item5"></li>
-            <li class="item6"></li>
-            <li class="item7"></li>
-            <li class="item8"></li>
-        </ul>
-    </div>
+
+<script>
+
+    function fun(){
+        var max = arguments[0];
+        for(var i=1; i<arguments.length; i++){
+            if(max<arguments[i]){
+                max = arguments[i];
+            }
+        }
+        console.log(max);
+    }
+    fun(34,54,3,5,989);
+    fun(98,984,234,231);
+
+
+</script>
+
 </body>
 </html>
