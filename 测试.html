@@ -8,22 +8,17 @@
 </head>
 <body>
 
-<script>
+    <script>
 
-    function fun(){
-        var max = arguments[0];
-        for(var i=1; i<arguments.length; i++){
-            if(max<arguments[i]){
-                max = arguments[i];
-            }
-        }
-        console.log(max);
-    }
-    fun(34,54,3,5,989);
-    fun(98,984,234,231);
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth()+1;//月份 返回的月份小1个月，所以要+1
+        var day = date.getDate();
+        var week = date.getDay();//周日0 周一1 周六6
+        var arr = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六',];
+        console.log('今天是：' + year + '年' + month + '月' + day + '日' + arr[week]);
 
-
-</script>
+    </script>
 
 </body>
 </html>
