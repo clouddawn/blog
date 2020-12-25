@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
 }
-
+.all {
+    width: 640px;
+    height: 640px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrapper {
+    margin-left: -10px;
+    width: 660px;
+}
+.all .wrapper .item {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0 10px 20px 10px;
+    float: left;
+}

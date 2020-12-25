@@ -7,43 +7,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <script>
-
-        // 合法的 JSON 格式
-
-        // ["one", "two", "three"]
-        // {"one":1,"two":2, "three":3}
-        // {"names":["王胖子","吴邪"]}
-        // {[{"name": "张起灵"},{"name": "闷油瓶"}]}
-
-        // {name:"张三", 'age':32} // 属性名必须使用双引号
-        // [32, 64, 128, 0xFFF] // 不能使用十六进制值
-        // {"name":"张三", "age":undefined} //不能使用 undefined
-
-        // let obj = {
-        //     a:1,
-        //     b:2
-        // }
-        // let str = JSON.stringify(obj);
-        // console.log(str);
-
-        // let newObj = JSON.parse(str);
-        // console.log(newObj);
-
-        var a = 1;
-        var b = a;
-        var person = {
-            name:'frank',
-            child:{
-                name:'jack'
-            }
+        function countDown(time){
+            let nowTime = +new Date();
+            let inputTime = +new Date(time);
+            let times = (inputTime - nowTime)/1000;
+            let d = parseInt(times/60/60/24);
+            d = d < 10 ? '0'+d : d;
+            let h = parseInt(times/60/60%24);
+            h = h < 10 ? '0'+h : h;
+            let m = parseInt(times/60%60);
+            m = m < 10 ? '0'
+            let s = parseInt(times%60);
+            return d + '天' + h + '时' + m + '分' + s + '秒';
         }
-        var person2 = person;
-
-        
-
+        console.log(countDown('2020-12-15 00:00:00'));
+        var date = new Date();
+        console.log(date);
     </script>
-
 </body>
 </html>
