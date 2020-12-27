@@ -1,16 +1,16 @@
 # new 关键字执行过程
 
 ```javascript
-        function Person(name, age, gender){
-            this.name = name;
-            this.age = age;
-            this.sex = gender;
-            this.eat = function(food){
-                console.log(food);
-            }
-        }
-        var mcs = new Person('梅长苏',31,'男');
-        console.log(mcs);
+function Person(name, age, gender) {
+  this.name = name;
+  this.age = age;
+  this.sex = gender;
+  this.eat = function (food) {
+    console.log(food);
+  };
+}
+var mcs = new Person("梅长苏", 31, "男");
+console.log(mcs);
 ```
 
 (1) new 构造函数可以在内存中创建一个空的对象  
