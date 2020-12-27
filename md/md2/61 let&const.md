@@ -12,7 +12,7 @@
 console.log(a);
 ```
 
-![image](../images2/61/1.png)(1)
+![image](../images2/61/1.PNG)(1)
 
 - 不存在变量提升，如果你在 let a 之前使用 a, 那么报错。
 
@@ -24,7 +24,7 @@ console.log(a);
 }
 ```
 
-![image](../images2/61/2.png)(2)
+![image](../images2/61/2.PNG)(2)
 
 - 暂时性死区  
   只要块级作用域内存在 let 命令，它所声明的变量就“绑定”这个区域，不再受外部的影响。
@@ -37,7 +37,7 @@ var a = 5;
 }
 ```
 
-![image](../images2/61/3.png)(3)
+![image](../images2/61/3.PNG)(3)
 
 - 不允许重复声明  
   let 不允许在相同作用域内，重复声明同一个变量。如果你重复 let a, 那么报错
@@ -50,7 +50,7 @@ var a = 5;
 }
 ```
 
-![image](../images2/61/4.png)(4)
+![image](../images2/61/4.PNG)(4)
 
 ## const
 
@@ -63,7 +63,7 @@ var a = 5;
 }
 ```
 
-![image](../images2/61/5.png)(5)
+![image](../images2/61/5.PNG)(5)
 
 - const 声明一个只读的常量。一旦声明，常量的值就不能改变。
 
@@ -75,4 +75,4 @@ var a = 5;
 }
 ```
 
-![image](../images2/61/6.png)(6)
+![image](../images2/61/6.PNG)(6)

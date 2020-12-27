@@ -1,8 +1,8 @@
 # window
 
-![image](../images2/65/n1.png)(n1)
+![image](../images2/65/n1.PNG)(n1)
 
-![image](../images2/65/n2.png)(n2)
+![image](../images2/65/n2.PNG)(n2)
 
 ## 关于 window
 

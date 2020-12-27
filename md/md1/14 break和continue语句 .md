@@ -12,7 +12,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images/14/1-for-loop.png)(1)
+![image](../images/14/1-for-loop.PNG)(1)
 
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -21,7 +21,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images/14/2-for-loop-break.png)(2)
+![image](../images/14/2-for-loop-break.PNG)(2)
 
 不能在 if 语句中使用 break 和 continue
 
@@ -32,7 +32,7 @@ if (true) {
 }
 ```
 
-![image](../images/14/3-if-break.png)(3)
+![image](../images/14/3-if-break.PNG)(3)
 
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -56,7 +56,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images/14/4-two-loop.png)(4)
+![image](../images/14/4-two-loop.PNG)(4)
 
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -68,7 +68,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images/14/5-one-loop.png)(5)
+![image](../images/14/5-one-loop.PNG)(5)
 
 ## label 语句
 
@@ -92,7 +92,7 @@ outer: for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images/14/6.png)(6)
+![image](../images/14/6.PNG)(6)
 
 ## continue
 
@@ -105,7 +105,7 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
-![image](../images/15/7.png)(7)
+![image](../images/15/7.PNG)(7)
 
 同样 continue 也是默认只会对离它最近的循环起作用
 

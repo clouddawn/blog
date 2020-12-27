@@ -9,7 +9,7 @@ console.log(Math.abs("-9")); // 9 隐式转换，会把字符型 -9 转换为数
 console.log(Math.abs("你大爷")); // NaN
 ```
 
-![image](../images2/52/1.png)(1)
+![image](../images2/52/1.PNG)(1)
 
 ## 三个取整方法
 
@@ -20,7 +20,7 @@ console.log(Math.floor(1.1));
 console.log(Math.floor(1.9));
 ```
 
-![image](../images2/52/2.png)(2)
+![image](../images2/52/2.PNG)(2)
 
 - Math.ceil() 向上取整，往大了取值
 
@@ -29,7 +29,7 @@ console.log(Math.ceil(1.1));
 console.log(Math.ceil(1.9));
 ```
 
-![image](../images2/52/3.png)(3)
+![image](../images2/52/3.PNG)(3)
 
 - Math.round() 四舍五入
 
@@ -41,6 +41,6 @@ console.log(Math.round(-1.1));
 console.log(Math.round(-1.5));
 ```
 
-![image](../images2/52/4.png)(4)
+![image](../images2/52/4.PNG)(4)
 
 注意：其他数字都是四舍五入，但 .5 特殊，它往大了取。

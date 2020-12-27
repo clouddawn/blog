@@ -11,7 +11,7 @@ var date = new Date();
 console.log(date);
 ```
 
-![image](../images2/54/1.png)(1)
+![image](../images2/54/1.PNG)(1)
 
 - 参数常用的写法  
   数字型 2020,12,8  
@@ -24,13 +24,13 @@ var date2 = new Date("2029-12-8 21:36:00");
 console.log(date2);
 ```
 
-![image](../images2/54/2.png)
+![image](../images2/54/2.PNG)
 
 注意：使用数字型时，月份会加一
 
 ## 日期格式化
 
-![image](../images2/54/3.png)
+![image](../images2/54/3.PNG)
 
 ```javascript
 var date = new Date();
@@ -50,4 +50,4 @@ var arr = [
 console.log("今天是：" + year + "年" + month + "月" + day + "日" + arr[week]);
 ```
 
-![image](../images2/54/4.png)
+![image](../images2/54/4.PNG)

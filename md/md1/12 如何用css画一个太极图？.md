@@ -70,7 +70,7 @@
 }
 ```
 
-![image](../images/12/ptyy.png)
+![image](../images/12/ptyy.PNG)
 
 ## 方法二
 
@@ -117,7 +117,7 @@
 }
 ```
 
-![image](../images/12/yinyang.png)
+![image](../images/12/yinyang.PNG)
 
 ## 方法三
 
@@ -180,7 +180,7 @@ body {
 }
 ```
 
-![image](../images/12/three.png)
+![image](../images/12/three.PNG)
 
 ## 方法四 会动的太极图
 
@@ -259,4 +259,4 @@ body {
 }
 ```
 
-![image](../images/12/ayin.png)
+![image](../images/12/ayin.PNG)

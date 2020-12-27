@@ -21,7 +21,7 @@ function fun() {
 fun(2, 4, 6, 5, 9);
 ```
 
-![image](../images/33/1.png)(1)
+![image](../images/33/1.PNG)(1)
 
 ```javascript
 function fun() {
@@ -33,7 +33,7 @@ function fun() {
 fun(2, 4, 6, 5, 9);
 ```
 
-![image](../images/33/2.png)(2)
+![image](../images/33/2.PNG)(2)
 
 ## 示例一
 
@@ -54,4 +54,4 @@ getMax(43, 98, 8, 23, 98, 43);
 getMax(1, 89, 342, 9887);
 ```
 
-![image](../images/33/3.png)(3)
+![image](../images/33/3.PNG)(3)

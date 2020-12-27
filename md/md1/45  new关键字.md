@@ -18,4 +18,4 @@ console.log(mcs);
 (3) 执行构造函数里面的代码，给这个空对象添加属性和方法  
 (4) 返回这个对象（所以构造函数里面不需要 return）
 
-![image](../images/45/n3.png)
+![image](../images/45/n3.PNG)

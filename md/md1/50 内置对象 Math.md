@@ -19,7 +19,7 @@
 console.log(Math.PI);
 ```
 
-![image](../images/50/1.png)(1)
+![image](../images/50/1.PNG)(1)
 
 ### [Math.max](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/max)
 
@@ -37,10 +37,10 @@ console.log(Math.max(1, 34, 98)); // 98
 console.log(Math.max(1, 34, "你大爷"));
 ```
 
-![image](../images/50/2.png)(2)
+![image](../images/50/2.PNG)(2)
 
 ```javascript
 console.log(Math.max());
 ```
 
-![image](../images/50/3.png)(3)
+![image](../images/50/3.PNG)(3)

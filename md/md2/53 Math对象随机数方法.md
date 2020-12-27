@@ -8,7 +8,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images2/53/1.png)(1)
+![image](../images2/53/1.PNG)(1)
 
 - 得到一个两个整数之间的随机整数，包括两个整数在内
 
@@ -21,7 +21,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-![image](../images2/53/2.png)(2)
+![image](../images2/53/2.PNG)(2)
 
 ### 案例：猜数字游戏
 

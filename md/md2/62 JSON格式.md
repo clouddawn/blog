@@ -42,7 +42,7 @@ let str = JSON.stringify(obj);
 console.log(str);
 ```
 
-![image](../images2/62/1.png)(1)
+![image](../images2/62/1.PNG)(1)
 
 - JSON.parse  
   用于把一个符合 JSON 格式的字符串还原对象
@@ -59,7 +59,7 @@ let newObj = JSON.parse(str);
 console.log(newObj);
 ```
 
-![image](../images2/62/2.png)(2)
+![image](../images2/62/2.PNG)(2)
 
 ## JavaScript 对象 VS JSON
 

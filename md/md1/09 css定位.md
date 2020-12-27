@@ -27,7 +27,7 @@
 CSS3 新属性，表现类似**position:relative**和**position:fixed**的合体，在目标区域在屏幕中可见
 
 注：兼容性较差，一般不用
-![image](../images/09/sticky兼容性.png)
+![image](../images/09/sticky兼容性.PNG)
 
 ## 普通流与相对定位
 
@@ -68,7 +68,7 @@ css 中有三种基本的定位机制：普通流，相对定位和绝对定位
 }
 ```
 
-![image](../images/09/原图.png)
+![image](../images/09/原图.PNG)
 
 ```css
 .ex2 {
@@ -81,7 +81,7 @@ css 中有三种基本的定位机制：普通流，相对定位和绝对定位
 }
 ```
 
-![image](../images/09/改动后.png)
+![image](../images/09/改动后.PNG)
 
 ## 绝对定位与固定定位
 
@@ -118,7 +118,7 @@ css 中有三种基本的定位机制：普通流，相对定位和绝对定位
 }
 ```
 
-![image](../images/09/绝对定位.png)
+![image](../images/09/绝对定位.PNG)
 
 **fixed**固定定位，固定定位是绝对定位的一种，固定定位的元素也不包含在普通文档流中，差异是固定元素的包含块儿是视口（viewport）
 
@@ -149,6 +149,6 @@ css 中有三种基本的定位机制：普通流，相对定位和绝对定位
 }
 ```
 
-![image](../images/09/fixed.png)
+![image](../images/09/fixed.PNG)
 
 注：1. 绝对定位时只写**position: absolute; **不写**relative、top、left**等定位元素，**div**只脱离文档流，位置不变，位置和不写没有区别。

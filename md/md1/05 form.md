@@ -22,7 +22,7 @@ form 标签跳转页面时发起的请求方式可以通过 **method** 设置；
 </form>
 ```
 
-![image](../images/post.png)
+![image](../images/post.PNG)
 
 ## input
 
@@ -51,8 +51,8 @@ button 按钮，上面显示 value 属性的值。
 <label><input type="checkbox" name="fruit" value="pear" />梨</label>
 ```
 
-![image](../images/checkbox0.png)
-![image](../images/checkbox.png)
+![image](../images/checkbox0.PNG)
+![image](../images/checkbox.PNG)
 
 ## label
 

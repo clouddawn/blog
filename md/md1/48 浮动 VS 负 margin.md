@@ -39,7 +39,7 @@
 }
 ```
 
-![image](../images/48/1.png)(1)
+![image](../images/48/1.PNG)(1)
 
 ```css
 .wrapper .sm3 {
@@ -51,7 +51,7 @@
 }
 ```
 
-![image](../images/48/2.png)(2)
+![image](../images/48/2.PNG)(2)
 
 ## 水平等距排列
 
@@ -96,4 +96,4 @@
 }
 ```
 
-![image](../images/48/3.png)(3)
+![image](../images/48/3.PNG)(3)
