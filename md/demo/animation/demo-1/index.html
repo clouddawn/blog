@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        var n = 1;
+        var id = setInterval(() => {
+            console.log(n);
+            if (n <= 100) {
+                demo.style.left = n / 100 * 300 + 'px';
+                n = n + 1;
+            }else{
+                clearInterval(id);
+            }
+        }, 1000 / 30)
+    </script>
+</body>
+</html>
