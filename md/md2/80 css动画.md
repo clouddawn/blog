@@ -12,3 +12,17 @@
 
 * 帧：每个静止的画面都叫做帧
 * 播放速度：每秒24帧（影视）或者每秒30帧（游戏）
+
+## 示例
+
+* [将div从左往右移动](https://clouddawn.github.io/blog//md/demo/animation/demo-1/index.html)
+* 原理
+  * 每过一段时间（用 setInterval 做到），将 div 移动一小段距离，直到移动到目标地点
+
+* 在开发者工具中勾选 Paint flashing 
+
+* 注意性能
+
+  * 绿色表示重新绘制（repaint）了，CSS渲染过程依次包含布局、绘制、合成，其中布局和绘制有可能被省略
+
+  
