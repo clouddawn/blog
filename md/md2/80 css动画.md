@@ -161,6 +161,8 @@
   * 填充模式：none|forwards|backwards|both
   * 是否暂停：paused|running
 
+示例：http://js.jirengu.com/wisup/1/edit?html,css,output
+
 
 
 
