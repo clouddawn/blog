@@ -1,6 +1,8 @@
 # AJAX 
 
 * Async JavaScript And XML
+* async  [ə'zɪŋk]  *adj.*异步的
+* XML：可扩展标记语言
 
 ### 用 JS 发请求和收响应
 
@@ -17,9 +19,14 @@
 * 用这个构造函数（类）可以构造出一个对象
 * JS 通过它实现发请求，收响应
 
+### XML HttpRequest
+
+* `XMLHttpRequest`（XHR）对象用于与服务器交互。通过 XMLHttpRequest 可以在不刷新页面的情况下请求特定 URL，获取数据。这允许网页在不影响用户操作的情况下，更新页面的局部内容。
+* 尽管名称如此，`XMLHttpRequest` 可以用于获取任何类型的数据，而不仅仅是 XML。它甚至支持 [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) 以外的协议（包括 file:// 和 FTP），尽管可能受到更多出于安全等原因的限制。
+
 ### 准备一个服务器
 
-* 使用 server.js 作为我们的服务器
+* 使用 [server.js](http://js.jirengu.com/kugam/1/edit?js) 作为我们的服务器
 * 下载或复制代码即可用 node server.js 8888 启动
 * 添加 index.html / main.js 两个路由
 
@@ -59,7 +66,24 @@ getCSS.onclick = () => {
 }
  ```
 
+### XMLHttpRequest.open()
 
+* **XMLHttpRequest.open()** 方法初始化一个请求
+
+#### 语法
+
+```js
+xhrReq.open(method, url);
+```
+
+* method：要使用的HTTP方法，比如「GET」、「POST」、「PUT」、「DELETE」、等。
+* url：表示要向其发送请求的URL。
+
+### XMLHttpRequest.send()
+
+* 用于发送 HTTP 请求。
+* 如果是异步请求（默认为异步请求），则此方法会在请求发送后立即返回；
+* 如果是同步请求，则此方法直到响应到达后才会返回。
 
 ## 加载 JS
 
@@ -153,6 +177,27 @@ getXML.onclick = ()=>{
 
 
 
+### XMLHttpRequest.readyState
+
+* **XMLHttpRequest.readyState** 属性返回一个 XMLHttpRequest  代理当前所处的状态。
+* 一个 XHR 代理总是处于下列状态中的一个：
+
+| 值   | 状态                                  | 描述                                                |
+| ---- | ------------------------------------- | --------------------------------------------------- |
+| `0`  | `UNSENT` (unsent)                     | 代理被创建，但尚未调用 open() 方法。                |
+| `1`  | `OPENED` (opened)                     | `open()` 方法已经被调用。                           |
+| `2`  | `HEADERS_RECEIVED` (headers_received) | `send()` 方法已经被调用，并且头部和状态已经可获得。 |
+| `3`  | `LOADING` (loading)                   | 下载中； `responseText` 属性已经包含部分数据。      |
+| `4`  | `DONE` (done)                         | 下载操作已完成。                                    |
+
+
+
+### XMLHttpRequest.onreadystatechange
+
+* 只要 `readyState` 属性发生变化，就会调用相应的处理函数。
+
+
+
 ## 总结 
 
 ### HTTP 是个筐，什么都能往里装
@@ -218,7 +263,52 @@ getXML.onclick = ()=>{
 
 
 
+## window.JSON
 
+### **JSON**对象包含两个方法: 
+
+* 用于解析 [JavaScript Object Notation](http://json.org/)  ([JSON](https://developer.mozilla.org/en-US/docs/Glossary/JSON)) 的 `parse()` 方法
+* 以及将对象/值转换为 JSON字符串的 `stringify()` 方法
+* 除了这两个方法, JSON这个对象本身并没有其他作用，也不能被调用或者作为构造函数调用。
+
+### JSON.parse
+
+* 将符合 JSON 语法的字符串转换成 JS 对应类型的数据
+* JSON 字符串 => JS 数据
+* 由于 JSON 只有六种类型，所以转换成的数据也只有 6 种
+* 如果不符合 JSON 语法，则直接抛出一个 Error 对象
+* 一般用 try catch 捕获错误
+
+```js
+let object;
+try {
+    object = JSON.parse(`{'name':"韦小宝"}`);
+}catch(error){
+    console.log('出错了，错误详情是');
+    console.log(error);
+    object = {"name":"韦小宝"}
+}
+console.log(object);
+```
+
+
+
+### JSON.stringify
+
+* 是 JSON.parse 的逆运算
+* JS 数据 => JSON 字符串
+* 由于 JS 的数据类型比 JSON 多，所以不一定能成功
+* 如果失败，就抛出一个 Error 对象
+
+```js
+const obj = {"hi":'来了，老弟'};
+JSON.stringify(obj);
+
+const obj2 = {"hi":'来了，老弟',fn:()=>{}};
+JSON.stringify(obj2);
+```
+
+![image](../images4/111/01.PNG)
 
 
 
