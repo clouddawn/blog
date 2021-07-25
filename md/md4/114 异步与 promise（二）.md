@@ -45,7 +45,7 @@ ajax('get','/1,json',{
 
 ![image](../images4/113/04.PNG)
 
-
+ 
 
 ## 怎么解决回调问题？
 
@@ -146,13 +146,105 @@ ajax = (method, url, options)=>{
 ### 第一步
 
 * `return new Promise((resolve,reject)=>{...})`
-* 任务成功则调用 resolve(result)
-* 任务失败则调用 reject(error)
-* resolve 和 reject 会再去调用成功和失败函数
+* 任务成功则调用 `resolve(result)`
+* 任务失败则调用 `reject(error)`
+* `resolve` 和 `reject` 会再去调用成功和失败函数
 
 ### 第二步
 
 * 使用 `.then(success,fail)` 传入成功和失败函数
+
+
+
+```js
+function 获取用户信息(){
+    return new Promise(function(resolve,reject){
+        console.log('第一次获取用户信息中……')
+        resolve('姓名方方')
+    })
+}
+
+function 打印用户信息(用户信息){
+    return new Promise(function(resolve,reject){
+        console.log(用户信息)
+        resolve()
+    })
+}
+
+function 获取另一个用户信息(){
+    return new Promise(function(resolve,reject){
+        console.log('第二次获取用户信息中……')
+        resolve('姓名小白')
+    })
+}
+
+获取用户信息()
+    .then(打印用户信息)
+    .then(获取另一个用户信息)
+    .then(打印用户信息)
+```
+
+![image](../images4/114/01.PNG)
+
+---
+
+```js
+function 获取用户信息(name){
+    return new Promise(function(resolve,reject){
+        if(name === '余罪'){
+            console.log('我知道他')
+            resolve('贱人余嘛！')
+        }else{
+            console.log('不认识')
+            reject()
+        }
+    })
+}
+
+获取用户信息('余罪')
+.then(
+    function(d){
+        console.log(d)
+    },
+    function(){
+        console.log('这谁呀？？？')
+    }
+)
+```
+
+![image](../images4/114/02.PNG)
+
+---
+
+```js
+function 获取用户信息(name){
+    return new Promise(function(resolve,reject){
+        if(name === '余罪'){
+            console.log('我知道他')
+            resolve('贱人余嘛！')
+        }else{
+            console.log('不认识')
+            reject()
+        }
+    })
+}
+
+获取用户信息('鼠标')
+.then(
+    function(d){
+        console.log(d)
+    },
+    function(){
+        console.log('这谁呀？？？')
+    }
+)
+```
+
+![image](../images4/114/03.PNG)
+
+---
+
+
 
 
 

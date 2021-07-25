@@ -28,8 +28,8 @@
 ### 以AJAX为例
 
 * `request.send()`之后，并不能直接得到 `response`
-* 必须等到`readyState`变为4后，浏览器回头调用`request.onreadystatechange`函数
-* 我们才能得到 `request.response`
+* 必须等到`readyState`变为 4 后，浏览器回头调用`request.onreadystatechange`函数
+* 我们才能得到 `request.response` 
 * 这跟餐厅给你发微信提醒的过程是类似的
 
 ### 回调 callback
@@ -48,7 +48,7 @@
 
 ### 把函数1给另一个函数2
 
-```
+```js
 function f1(){}
 function f2(fn){
 	fn()
@@ -134,7 +134,7 @@ f2(f1);
 * 可以让 JS 留一个函数地址（电话号码）给浏览器
 * 异步任务完成时浏览器调用该函数地址即可（拨打电话）
 * 同时把结果作为参数传给该函数（电话里说可以来吃了）
-* 这个函数是我写给浏览器调用的，所以是回调函数
+* 这个函数是我们写给浏览器调用的，所以是回调函数
 
 ### 区别
 
@@ -252,11 +252,12 @@ console.log(array)
 ![image](../images4/113/02.PNG)
 
 ```js
+// map 会传三个参数
 const array = ['1','2','3'].map((item,index,array)=>{
     return parseInt(item,index,array);
     // parseInt('1',0,array) => 1
-    // parseInt('2',1,array) => NaN
-    // parseInt('3',2,array) => NaN
+    // parseInt('2',1,array) => NaN // 把2作为一进制的数进行解析
+    // parseInt('3',2,array) => NaN // 把3作为二进制的数进行解析
 })
 ```
 
