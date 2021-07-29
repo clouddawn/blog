@@ -244,9 +244,47 @@ function 获取用户信息(name){
 
 ---
 
+```js
+function 获取用户信息(name){
+    return new Promise(function(resolve,reject){
+        if(name === '余罪'){
+            resolve(['余罪',',','贱人余嘛！'])
+        }else{
+            reject('不认识')
+        }
+    })
+}
 
+let 用户信息 = await 获取用户信息('余罪');
+console.log(用户信息);
+```
 
+![image](../images4/114/04.PNG)
 
+---
+
+```js
+function 获取用户信息(name){
+    return new Promise(function(resolve,reject){
+        if(name === '余罪'){
+            resolve(['余罪',',','贱人余嘛！'])
+        }else{
+            reject('不认识')
+        }
+    })
+}
+
+try {
+    let 用户信息 = await 获取用户信息('鼠标');
+    console.log(用户信息);
+}catch(error /*错误理由*/){
+    console.log('失败理由是：' + error)
+}
+```
+
+![image](../images4/114/05.PNG)
+
+----
 
 ## 我们封装的 ajax 的缺点
 

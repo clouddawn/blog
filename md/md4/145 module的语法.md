@@ -4,18 +4,7 @@
 
 模块功能主要由两个命令构成：`export`和`import`。`export`命令用于规定模块的对外接口，`import`命令用于输入其他模块提供的功能。
 
-一个模块就是一个独立的文件。该文件内部的所有变量，外部无法获取。如果你希望外部能都读取模块内部的某个变量，就必须使用`export`关键字输出该变量。下面是一个 JS 文件，里面使用`export`命令输出变量。
-
-```js
-// profile.js
-export var firstName = 'Michael';
-export var lastName = 'Jackson';
-export var year = 1958;
-```
-
-上面代码是`profile.js`文件，保存了用户信息。ES6 将其视为一个模块，里面用`export`命令对外部输出了三个变量。
-
-`export`的写法，除了像上面这样，还有另外一种。
+一个模块就是一个独立的文件。该文件内部的所有变量，外部无法获取。如果你希望外部能读取模块内部的某个变量，就必须使用`export`关键字输出该变量。下面是一个 JS 文件，里面使用`export`命令输出变量。
 
 ```js
 // profile.js
@@ -26,7 +15,7 @@ var year = 1958;
 export { firstName,lastName,year };
 ```
 
-上面代码在`export`命令后面，使用大括号指定所要输出的一组变量。它与前一种写法（直接放置在`var`语句前）是等价的，但是应该优先考虑使用这种写法。因为这样就可以在脚本尾部，一眼看清楚输出了哪些变量。
+上面代码在`export`命令后面，使用大括号指定所要输出的一组变量。
 
 `export`命令除了输出变量，还可以输出函数和类（class）。
 
@@ -37,21 +26,6 @@ export function multiply(x,y){
 ```
 
 上面代码对外输出一个函数`multiply`。
-
-通常情况下，`export`输出的变量就是本来的名字，但是可以使用`as`关键字重命名。
-
-```js
-function v1(){ ... }
-function v2(){ ... }
-
-export {
-	v1 as streamV1,
-    v2 as streamV2,
-    v3 as streamLatestVersion
-};
-```
-
-上面代码使用`as`关键字，重命名了函数`v1`和`v2`的对外接口。重命名后，`v2`可以用不同的名字输出两次。
 
 需要特别注意的是，`export`命令规定的是对外的接口，必须与模块内部的变量建立一一对应关系。
 
@@ -67,19 +41,9 @@ export m;
 上面两种写法都会报错，因为没有提供对外的接口。第一种写法直接输出 1，第二种写法通过变量`m`，还是直接输出 1。`1`只是一个值，不是接口。正确的写法是下面这样。
 
 ```js
-// 写法一
-export var m = 1;
-
-// 写法二
 var m = 1;
 export {m};
-
-// 写法三
-var n = 1;
-export {n as m};
 ```
-
-这三种写法都是正确的，规定了对外的接口`m`。其他脚本可以通过这个接口，取到值`1`。它们的实质是，在接口名与模块内部变量之间，建立了一一对应的关系。
 
 同样的，`function`和`class`的输出，也必须遵守这样的写法。
 
@@ -144,7 +108,7 @@ import {a} from './xxx.js';
 a = {}; // Syntax Error : 'a' is read-only;
 ```
 
-上面代码中，脚本加载了变量`a`，对期重新赋值就会报错，因为`a`是一个只读的接口。但是，如果`a`是一个对象，改写`a`的属性是允许的。
+上面代码中，脚本加载了变量`a`，对其重新赋值就会报错，因为`a`是一个只读的接口。但是，如果`a`是一个对象，改写`a`的属性是允许的。
 
 ```js
 import {a} from './xxx.js';
@@ -152,14 +116,6 @@ a.foo = 'hello'; // 合法操作
 ```
 
 上面代码中，`a`的属性可以成功改写，并且其他模块也可以读到改写后的值。不过，这种写法很难查错，建议凡是输入的变量，都当做完全可读，不要轻易改变它的属性。
-
-`import`后面的`from`指定模块文件的位置，可以是相对路径，也可以是绝对路径。如果不带有路径，只是一个模块名，那么必须有配置文件，告诉 JavaScript 引擎该模块的位置。
-
-```js
-import { myMethod } from 'util';
-```
-
-上面代码中，`util`是模块文件名，由于不带有路径，必须通过配置，告诉引擎怎么取到这个模块。
 
 注意，`import`命令具有提升效果，会提升到整个模块的头部，首先执行。
 
@@ -214,7 +170,7 @@ import { bar } from 'my_module';
 import { foo,bar } from 'my_module';
 ```
 
-上面代码中，虽然`foo`和`bar`在两个语句中加载，但是它们对应的是同一个`my_module`模块。也就是说，`import`语句是 Singleton 模式。
+上面代码中，虽然`foo`和`bar`在两个语句中加载，但是它们对应的是同一个`my_module`模块。
 
 ## 模块的整体加载
 
@@ -341,34 +297,6 @@ import {default as foo} from 'modules';
 // 等同于
 // import foo from 'modules';
 ```
-
-正是因为`export default`命令其实只是输出一个叫做`default`的变量，所以它后面不能跟变量声明语句。
-
-```js
-// 正确
-export var a = 1;
-
-// 正确
-var a = 1;
-export default a;
-
-// 错误
-export default var a = 1;
-```
-
-上面代码中，`export default a`的含义是将变量`a`的值赋给变量`default`。所以，最后一种写法会报错。
-
-同样地，因为`export default`命令的本质是将后面的值，赋给`default`变量，所以可以直接将一个值写在`export default`之后。
-
-```js
-// 正确
-export default 42;
- 
-// 报错
-export 42;
-```
-
-上面代码中，后一句报错是因为没有指定对外的接口，而前一句指定对外接口为`default`。
 
 有了`export default`命令，输入模块时就非常直观了，以输入 lodash 模块为例。
 
