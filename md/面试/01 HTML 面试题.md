@@ -27,12 +27,8 @@ meta 标签里面有两个属性，name 和 content 。name 里面写 viewport �
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 ```
 
-
-
-
-
 ## 3. 你用过哪些 HTML 5 标签？
 header main footer article audio video canvas
 
 ## 4. H5 是什么？
-移动端页面
+H5 泛指那些在移动端网络社交媒体，例如微信，中传播的，带有交互体验、动态效果以及音效的 Web 页面。
