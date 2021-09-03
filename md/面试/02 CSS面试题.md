@@ -4,7 +4,7 @@
 
 content-box 和 border-box  ，也就是标准盒模型和怪异盒模型。content-box 的 宽度为内容的宽度，border-box 的宽度为内容的宽度加上内边距的宽度，再加上边框的宽度。
 
-我平时喜欢用 border-box ，因为他更符合我的感觉。
+我平时喜欢用 border-box ，因为他更符合我对于宽度的直观感觉。
 
 ## 如何垂直居中？
 背代码 https://www.yuque.com/docs/share/708bd899-0c46-47ea-a94c-d7a189c0f7dc?# 《七种方式实现垂直居中》
@@ -50,3 +50,28 @@ BFC 全称是 Block Formatting Context，翻译过来就是块级格式化上下
      zoom: 1; /* IE 兼容*/
  }
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
