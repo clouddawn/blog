@@ -336,6 +336,78 @@ import MyClass from 'MyClass';
 let o = new MyClass();
 ```
 
+--------------
+
+-------------
+
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script type="module" src="./profile.js"></script>
+    <script type="module" src="./useage.js"></script>
+
+</body>
+</html>
+```
+
+-
+
+```js
+// profile.js
+
+export var firstName = '孙';
+export var lastName = '悟空';
+export var age = 500;
+```
+
+-
+
+```js
+// useage.js
+
+import { firstName,lastName,year } from "./profile.js";
+console.log(firstName,lastName,year);
+```
+
+![image](../images4/145/01.PNG)
+
+------
+
+```js
+// profile.js
+
+export default function(){
+    console.log('foo');
+}
+```
+
+-
+
+```js
+// usage.js
+
+import getName from './profile.js';
+getName();
+```
+
+
+
+
+
+
+
+
+
 
 
 

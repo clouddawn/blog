@@ -46,7 +46,7 @@
   1. Cookie 存在浏览器的文件里，Session 存在服务器的文件里
   2. Session 是基于 Cookie 实现的，具体做法就是把 SessionID 存在 Cookie 里
 
-读书学习有价值，但是相对比较无聊。 
+
 
 
 
