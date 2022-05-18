@@ -1,5 +1,9 @@
 # JavaScript
 
+[025 js 如何实现点击按钮，显示按钮的文本？](https://zhuanlan.zhihu.com/p/467904693)
+
+* js/jquery 点击事件
+
 [024 JS 中 filter 的用法？](https://zhuanlan.zhihu.com/p/472088389)
 
 * 筛选数组中的元素
