@@ -1,85 +1,134 @@
 # JavaScript
 
-[025 js 如何实现点击按钮，显示按钮的文本？](https://zhuanlan.zhihu.com/p/467904693)
+
+
+[41 JS 中的 new 运算符怎么用？](https://zhuanlan.zhihu.com/p/452421922)
+
+[40 如何理解 JS 中的闭包？](https://zhuanlan.zhihu.com/p/452629581)
+
+[39 前端学习阶段性知识总结（一）](https://zhuanlan.zhihu.com/p/452824167)
+
+* loader 和 plugin 的区别
+* node require
+
+[38 JS 中的构造函数是怎么用的？](https://zhuanlan.zhihu.com/p/463188810)
+
+[37 浏览器渲染的机制？](https://zhuanlan.zhihu.com/p/455655385)
+
+* 重绘
+* 回流
+
+[36 阻塞解析与阻塞渲染](https://zhuanlan.zhihu.com/p/458148110)
+
+* css加载阻塞
+* js加载阻塞
+
+[35 JS 中点击事件的三种写法](https://zhuanlan.zhihu.com/p/463036941)
+
+* 事件监听
+
+[34 JS 中的原型是什么？](https://zhuanlan.zhihu.com/p/463342900)
+
+[33 JS 中 in 运算符的用法？](https://zhuanlan.zhihu.com/p/463469813)
+
+* 判断属性是否在对象中
+
+[32 JS 中 this 的三种情况？](https://zhuanlan.zhihu.com/p/463164020)
+
+[31 JS 中的原型链是什么？](https://zhuanlan.zhihu.com/p/463493359)
+
+[30 JS 中的垃圾回收？](https://zhuanlan.zhihu.com/p/464111503)
+
+[29 JS 中的页面加载完成事件监听](https://zhuanlan.zhihu.com/p/464125152)
+
+[28 JS 中 innerHTML 的用法？](https://zhuanlan.zhihu.com/p/464147284)
+
+[27 JS中如何判断一个变量是否为数组？](https://zhuanlan.zhihu.com/p/466504843)
+
+[26 如何用 JS 生成一个 h2 标签并插入到 div 中？](https://zhuanlan.zhihu.com/p/466636275)
+
+* 原生 JS 操作 DOM
+
+[25 js 如何实现点击按钮，显示按钮的文本？](https://zhuanlan.zhihu.com/p/467904693)
 
 * js/jquery 点击事件
 
-[024 JS 中 filter 的用法？](https://zhuanlan.zhihu.com/p/472088389)
+[24 JS 中 filter 的用法？](https://zhuanlan.zhihu.com/p/472088389)
 
 * 筛选数组中的元素
 
-[023 JS 中 for...in 和 for...of 的用法](https://zhuanlan.zhihu.com/p/472726315)
+[23 JS 中 for...in 和 for...of 的用法](https://zhuanlan.zhihu.com/p/472726315)
 
 * 遍历对象的key
 * 遍历对象
 
-[022 原生 js 如何阻止事件冒泡？](https://zhuanlan.zhihu.com/p/475507871)
+[22 原生 js 如何阻止事件冒泡？](https://zhuanlan.zhihu.com/p/475507871)
 
-[021 JS 中 parseInt 的用法？](https://zhuanlan.zhihu.com/p/477138529)
+[21 JS 中 parseInt 的用法？](https://zhuanlan.zhihu.com/p/477138529)
 
 * 取整
 
-[020 JS 中字符串、数字的相互转换方法？](https://zhuanlan.zhihu.com/p/477491058)
+[20 JS 中字符串、数字的相互转换方法？](https://zhuanlan.zhihu.com/p/477491058)
 
-[019 input 的 type 为 number 时的两个坑？](https://zhuanlan.zhihu.com/p/482118995)
+[19 input 的 type 为 number 时的两个坑？](https://zhuanlan.zhihu.com/p/482118995)
 
 * 去掉箭头
 * 限制长度
 
-[018 JS 中 apply 的用法？](https://zhuanlan.zhihu.com/p/482252372)
+[18 JS 中 apply 的用法？](https://zhuanlan.zhihu.com/p/482252372)
 
-[017 JS 中合并两个数组的办法？](https://zhuanlan.zhihu.com/p/482256286)
+[17 JS 中合并两个数组的办法？](https://zhuanlan.zhihu.com/p/482256286)
 
-[016 JS 数组中 pop 和 shift 的用法？](https://zhuanlan.zhihu.com/p/482287647)
+[16 JS 数组中 pop 和 shift 的用法？](https://zhuanlan.zhihu.com/p/482287647)
 
 * 从数组中删除最后一个元素
 * 从数组中删除第一个元素
 
-[015 JS 数组中 unshift 的用法？](https://zhuanlan.zhihu.com/p/485627934)
+[15 JS 数组中 unshift 的用法？](https://zhuanlan.zhihu.com/p/485627934)
 
 * 将元素添加到数组开头
 
-[014 JS 数组中 splice 的用法？](https://zhuanlan.zhihu.com/p/485655249)
+[14 JS 数组中 splice 的用法？](https://zhuanlan.zhihu.com/p/485655249)
 
 * 替换数组中的元素
 
-[013 JS 如何找出数组最大值？](https://zhuanlan.zhihu.com/p/486349743)
+[13 JS 如何找出数组最大值？](https://zhuanlan.zhihu.com/p/486349743)
 
-[012 JS 如何将数组中的元素倒序排列？](https://zhuanlan.zhihu.com/p/487825442)
+[12 JS 如何将数组中的元素倒序排列？](https://zhuanlan.zhihu.com/p/487825442)
 
-[011 JS 不用 pop() 如何实现删除数组中最后一个元素？](https://zhuanlan.zhihu.com/p/487889054)
+[11 JS 不用 pop() 如何实现删除数组中最后一个元素？](https://zhuanlan.zhihu.com/p/487889054)
 
-[010 JS 不用 unshift() 如何实现在数组的最前面添加任意个元素？](https://zhuanlan.zhihu.com/p/488464746)
+[10 JS 不用 unshift() 如何实现在数组的最前面添加任意个元素？](https://zhuanlan.zhihu.com/p/488464746)
 
 * reset参数/三个点
 
-[009 JS 中 toFixed() 的用法？](https://zhuanlan.zhihu.com/p/489156440)
+[9 JS 中 toFixed() 的用法？](https://zhuanlan.zhihu.com/p/489156440)
 
 * 指定取小数点后几位
 
-[008 JS 中遍历数组的四种方法](https://zhuanlan.zhihu.com/p/491119682)
+[8 JS 中遍历数组的四种方法](https://zhuanlan.zhihu.com/p/491119682)
 
-[007 JS 数组中 filter/map/reduce 的用法?](https://zhuanlan.zhihu.com/p/491135882)
+[7 JS 数组中 filter/map/reduce 的用法?](https://zhuanlan.zhihu.com/p/491135882)
 
-[006 Day.js](https://zhuanlan.zhihu.com/p/493982695)
+[6 Day.js](https://zhuanlan.zhihu.com/p/493982695)
 
 * 处理日期、时间戳
 
-[005 JS 实现数组去重的两个方法？](https://zhuanlan.zhihu.com/p/501240670)
+[5 JS 实现数组去重的两个方法？](https://zhuanlan.zhihu.com/p/501240670)
 
-[004 JS 如何实现数组排序？](https://zhuanlan.zhihu.com/p/501616981)
+[4 JS 如何实现数组排序？](https://zhuanlan.zhihu.com/p/501616981)
 
-[003 ES5 如何实现模块化？](https://zhuanlan.zhihu.com/p/509084381)
+[3 ES5 如何实现模块化？](https://zhuanlan.zhihu.com/p/509084381)
 
 - es5
 - 匿名函数
 
-[002 ES6：Module 的语法](https://zhuanlan.zhihu.com/p/509137259)
+[2 ES6：Module 的语法](https://zhuanlan.zhihu.com/p/509137259)
 
 - import
 - export
 - 导入、导出
 
-[001 如何用 JS 操作 Cookie?](https://zhuanlan.zhihu.com/p/509830488)
+[1 如何用 JS 操作 Cookie?](https://zhuanlan.zhihu.com/p/509830488)
 
 - cookie
