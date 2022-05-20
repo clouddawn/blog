@@ -1,6 +1,31 @@
 # JavaScript
 
+[47 JS 获取时间戳与时间戳转换](https://zhuanlan.zhihu.com/p/441555310)
 
+[46 JS 如何删除数组中的某一项？](https://zhuanlan.zhihu.com/p/442469214)
+
+[45 如何使用 JS 将数组中的某一项移到第一位？](https://zhuanlan.zhihu.com/p/442927338)
+
+[44 HTML5 是什么？](https://zhuanlan.zhihu.com/p/442934132)
+
+* h5
+
+[45 如何解决 vue 项目在 ios 上白屏的问题？](https://zhuanlan.zhihu.com/p/443298950)
+
+* js 在 ios 上不兼容
+
+[44 如何用 JS 禁止视频快进？](https://zhuanlan.zhihu.com/p/443314203)
+
+[43 如何解决动态 rem 页面在微信浏览器中样式错乱？](https://zhuanlan.zhihu.com/p/443319104)
+
+[43 JS 中的 onclick 怎么用？](https://zhuanlan.zhihu.com/p/446357411)
+
+* 点击事件
+
+[42 HTML 中的文档类型（DOCTYPE）是用来干什么的？](https://zhuanlan.zhihu.com/p/447345978)
+
+* 标准模式
+* 怪异模式
 
 [41 JS 中的 new 运算符怎么用？](https://zhuanlan.zhihu.com/p/452421922)
 
@@ -108,7 +133,7 @@
 
 [8 JS 中遍历数组的四种方法](https://zhuanlan.zhihu.com/p/491119682)
 
-[7 JS 数组中 filter/map/reduce 的用法?](https://zhuanlan.zhihu.com/p/491135882)
+[7 JS 数组中 filter/map/reduce 的用法?](https://github.com/clouddawn/blog/blob/main/md/md5/181%20JS%20%E6%95%B0%E7%BB%84%E4%B8%AD%20filtermapreduce%20%E7%9A%84%E7%94%A8%E6%B3%95.md)
 
 [6 Day.js](https://zhuanlan.zhihu.com/p/493982695)
 
