@@ -1,8 +1,42 @@
 # JavaScript
 
+[58 DOM 是什么？](https://zhuanlan.zhihu.com/p/417581221)
+
+[57 Axios 是什么？怎么用？](https://zhuanlan.zhihu.com/p/424978482)
+
+[56 Scoped CSS](https://zhuanlan.zhihu.com/p/425085707)
+
+[55 FormData 是什么？怎么用？](https://zhuanlan.zhihu.com/p/425155791)
+
+[54 JS 中的 Image() 怎么用？](https://zhuanlan.zhihu.com/p/434074559)
+
+[53 JS 中的 XMLHttpRequest 对象怎么用？](https://zhuanlan.zhihu.com/p/435420620)
+
+* ajax
+
+[52 JS 中 XMLHttpRequest 的实例属性有哪些？](https://zhuanlan.zhihu.com/p/435430612)
+
+* ajax
+
+[51 JS 中 XMLHttpRequest 实例的方法有哪些？](https://zhuanlan.zhihu.com/p/435542501)
+
+* ajax
+
+[50 JS 中 XMLHttpRequest 实例的事件有哪些？](https://zhuanlan.zhihu.com/p/435547312)
+
+* ajax
+
+[49 JS 中的 Navigator.sendBeacon() 是干什么的？](https://zhuanlan.zhihu.com/p/435549202)
+
+* ajax
+
+[48 JS 中的 this 是用来干什么的？怎么用？](https://zhuanlan.zhihu.com/p/441408073)
+
 [47 JS 获取时间戳与时间戳转换](https://zhuanlan.zhihu.com/p/441555310)
 
 [46 JS 如何删除数组中的某一项？](https://zhuanlan.zhihu.com/p/442469214)
+
+* splice
 
 [45 如何使用 JS 将数组中的某一项移到第一位？](https://zhuanlan.zhihu.com/p/442927338)
 
@@ -51,6 +85,8 @@
 [35 JS 中点击事件的三种写法](https://zhuanlan.zhihu.com/p/463036941)
 
 * 事件监听
+* 捕获
+* 冒泡
 
 [34 JS 中的原型是什么？](https://zhuanlan.zhihu.com/p/463342900)
 

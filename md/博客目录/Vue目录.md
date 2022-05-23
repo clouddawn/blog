@@ -1,6 +1,22 @@
 ## Vue
 
+[34 Vuex 里面的 Action 是什么？](https://zhuanlan.zhihu.com/p/417231815)
 
+[33 Vue 中的动画如何实现？](https://zhuanlan.zhihu.com/p/418015309)
+
+[32 Vue 中的 mounted 钩子函数怎么用？](https://zhuanlan.zhihu.com/p/419358051)
+
+[31 Vuex 里面的 Module 怎么用？](https://zhuanlan.zhihu.com/p/419498049)
+
+[30 Vue 中的 computed 如何使用？](https://zhuanlan.zhihu.com/p/419506345)
+
+[29 Vue 中的过滤器如何使用？](https://zhuanlan.zhihu.com/p/424216171)
+
+* filters
+
+[28 JS中的 Promise 怎么用？](https://zhuanlan.zhihu.com/p/435555341)
+
+[27 在 Vue 中如何监听键盘事件？](https://zhuanlan.zhihu.com/p/441522241)
 
 [26 Vue：用 v-model 实现多选效果](https://zhuanlan.zhihu.com/p/491975740)
 
