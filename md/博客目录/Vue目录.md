@@ -1,5 +1,48 @@
 ## Vue
 
+
+
+[49 Vue 如何实现组件间通信？](https://zhuanlan.zhihu.com/p/409301173)
+
+[48 Vue 数据响应式怎么做到的](https://zhuanlan.zhihu.com/p/409302782)
+
+[47 用 v-for 把一个数组对应为一组元素](https://zhuanlan.zhihu.com/p/409498792)
+
+* key
+
+46 vm.$emit(eventName,[...args])
+
+* https://zhuanlan.zhihu.com/p/413268050
+* 组件通信
+
+[45 v-if vs v-show](https://zhuanlan.zhihu.com/p/413416495)
+
+[44 Vue Router（一）](https://zhuanlan.zhihu.com/p/413492124)
+
+* 动态路由匹配
+
+[43 vue 组件通信（一）](https://zhuanlan.zhihu.com/p/413882166)
+
+* 父子组件通信
+
+[42 vue 组件通信（二）](https://zhuanlan.zhihu.com/p/414694073)
+
+* $emit / $on
+
+[41 Vuex 是什么？](https://zhuanlan.zhihu.com/p/414707996)
+
+[40 Vuex中的store是什么？](https://zhuanlan.zhihu.com/p/414856578)
+
+[39 Vuex 中的 state 是什么？](https://zhuanlan.zhihu.com/p/414960727)
+
+[38 Vuex 中的 Getter 是什么？](https://zhuanlan.zhihu.com/p/414984787)
+
+[37 Vuex 中的 Mutation 是什么？](https://zhuanlan.zhihu.com/p/415741221)
+
+[36 Vue 中的 data 遵循哪些规则？](https://zhuanlan.zhihu.com/p/416837583)
+
+[35 在Vue中，如何将Class 与 Style 绑定？](https://zhuanlan.zhihu.com/p/417198598)
+
 [34 Vuex 里面的 Action 是什么？](https://zhuanlan.zhihu.com/p/417231815)
 
 [33 Vue 中的动画如何实现？](https://zhuanlan.zhihu.com/p/418015309)
