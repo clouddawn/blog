@@ -1,8 +1,40 @@
 # JavaScript
 
+[99 CanvasRenderingContext2D.fillRect()](https://zhuanlan.zhihu.com/p/406008704)
 
+* canvas
 
+[92 getter](https://zhuanlan.zhihu.com/p/407291302)
 
+[91 String.prototype.slice()](https://zhuanlan.zhihu.com/p/407512625)
+
+* 截取字符串
+
+[90 String.prototype.substring()](https://zhuanlan.zhihu.com/p/407521858)
+
+* 截取字符串
+
+[89 for...in](https://zhuanlan.zhihu.com/p/407657059)
+
+[88 Object.keys()](https://zhuanlan.zhihu.com/p/407657793)
+
+[87 跨源资源共享（CORS）](https://zhuanlan.zhihu.com/p/407831284)
+
+[86 async / await](https://zhuanlan.zhihu.com/p/408363923)
+
+[85 Object.assign()](https://zhuanlan.zhihu.com/p/408510453)
+
+[84 展开语法](https://zhuanlan.zhihu.com/p/408659399)
+
+* ...
+
+[83 Object.defineProperty()](https://zhuanlan.zhihu.com/p/408687633)
+
+[82 JS 浅拷贝与深拷贝](https://zhuanlan.zhihu.com/p/409122020)
+
+[81 如何用正则实现 trim()](https://zhuanlan.zhihu.com/p/409209516)
+
+[80 不用 class 如何实现继承？用 class 又如何实现？](https://zhuanlan.zhihu.com/p/409215040)
 
 [79 JS的解析过程与变量提升](https://zhuanlan.zhihu.com/p/302714610)
 

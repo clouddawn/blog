@@ -1,6 +1,8 @@
 # HTML
 
+[13 如何理解HTML语义化？](https://zhuanlan.zhihu.com/p/405094727)
 
+[12 meta viewport 是做什么用的，怎么写？](https://zhuanlan.zhihu.com/p/405097694)
 
 [11 form、input和button标签详解](https://zhuanlan.zhihu.com/p/276289903)
 

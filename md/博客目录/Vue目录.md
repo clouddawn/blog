@@ -1,6 +1,8 @@
 ## Vue
 
+[51 watch 和 computed 和 methods 区别是什么？](https://zhuanlan.zhihu.com/p/409136716)
 
+[50 Vue 有哪些生命周期钩子函数？分别有什么用？](https://zhuanlan.zhihu.com/p/409140744)
 
 [49 Vue 如何实现组件间通信？](https://zhuanlan.zhihu.com/p/409301173)
 
