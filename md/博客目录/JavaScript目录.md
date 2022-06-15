@@ -1,9 +1,5 @@
 # JavaScript
 
-[99 CanvasRenderingContext2D.fillRect()](https://zhuanlan.zhihu.com/p/406008704)
-
-* canvas
-
 [92 getter](https://zhuanlan.zhihu.com/p/407291302)
 
 [91 String.prototype.slice()](https://zhuanlan.zhihu.com/p/407512625)
