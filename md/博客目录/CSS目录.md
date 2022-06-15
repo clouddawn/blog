@@ -1,6 +1,10 @@
 # CSS
 
-[13 scss_知识补充1 ]()
+[13 scss_知识补充1 ](https://github.com/clouddawn/blog/blob/main/md/md6/195_scss_%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%851.md)
+
+* 变量（$）
+* darken()
+* 父选择器（&）
 
 [12 css两种盒模型](https://zhuanlan.zhihu.com/p/405892986)
 
