@@ -4,8 +4,6 @@
 
 [50 Vue 有哪些生命周期钩子函数？分别有什么用？](https://zhuanlan.zhihu.com/p/409140744)
 
-[49 Vue 如何实现组件间通信？](https://zhuanlan.zhihu.com/p/409301173)
-
 [48 Vue 数据响应式怎么做到的](https://zhuanlan.zhihu.com/p/409302782)
 
 [47 用 v-for 把一个数组对应为一组元素](https://zhuanlan.zhihu.com/p/409498792)
