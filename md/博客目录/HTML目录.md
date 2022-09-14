@@ -1,5 +1,9 @@
 # HTML
 
+[14 audio用法全解](https://zhuanlan.zhihu.com/p/530025376)
+
+* 循环播放
+
 [13 如何理解HTML语义化？](https://zhuanlan.zhihu.com/p/405094727)
 
 [12 meta viewport 是做什么用的，怎么写？](https://zhuanlan.zhihu.com/p/405097694)
