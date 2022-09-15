@@ -213,11 +213,6 @@
 
 [20 JS 中字符串、数字的相互转换方法？](https://zhuanlan.zhihu.com/p/477491058)
 
-[19 input 的 type 为 number 时的两个坑？](https://zhuanlan.zhihu.com/p/482118995)
-
-* 去掉箭头
-* 限制长度
-
 [18 JS 中 apply 的用法？](https://zhuanlan.zhihu.com/p/482252372)
 
 [17 JS 中合并两个数组的办法？](https://zhuanlan.zhihu.com/p/482256286)

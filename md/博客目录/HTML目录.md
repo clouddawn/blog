@@ -1,5 +1,10 @@
 # HTML
 
+[15 input 的 type 为 number 时的两个坑？](https://zhuanlan.zhihu.com/p/482118995)
+
+- 去掉箭头
+- 限制长度 / maxlength
+
 [14 audio用法全解](https://zhuanlan.zhihu.com/p/530025376)
 
 * 循环播放
