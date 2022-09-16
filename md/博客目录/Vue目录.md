@@ -1,8 +1,16 @@
 ## Vue
 
+
+
+[52 如何解决 vue 项目在 ios 上白屏的问题？](https://zhuanlan.zhihu.com/p/443298950)
+
+- js 在 ios 上不兼容
+
 [51 watch 和 computed 和 methods 区别是什么？](https://zhuanlan.zhihu.com/p/409136716)
 
-[50 Vue 有哪些生命周期钩子函数？分别有什么用？](https://zhuanlan.zhihu.com/p/409140744)
+[50 Vue 基础（二）](https://zhuanlan.zhihu.com/p/375617083?)
+
+[49 Scoped CSS](https://zhuanlan.zhihu.com/p/425085707)
 
 [48 Vue 数据响应式怎么做到的](https://zhuanlan.zhihu.com/p/409302782)
 

@@ -86,8 +86,6 @@
 
 [57 Axios 是什么？怎么用？](https://zhuanlan.zhihu.com/p/424978482)
 
-[56 Scoped CSS](https://zhuanlan.zhihu.com/p/425085707)
-
 [55 FormData 是什么？怎么用？](https://zhuanlan.zhihu.com/p/425155791)
 
 [54 JS 中的 Image() 怎么用？](https://zhuanlan.zhihu.com/p/434074559)
@@ -122,14 +120,6 @@
 
 [45 如何使用 JS 将数组中的某一项移到第一位？](https://zhuanlan.zhihu.com/p/442927338)
 
-[44 HTML5 是什么？](https://zhuanlan.zhihu.com/p/442934132)
-
-* h5
-
-[45 如何解决 vue 项目在 ios 上白屏的问题？](https://zhuanlan.zhihu.com/p/443298950)
-
-* js 在 ios 上不兼容
-
 [44 如何用 JS 禁止视频快进？](https://zhuanlan.zhihu.com/p/443314203)
 
 [43 如何解决动态 rem 页面在微信浏览器中样式错乱？](https://zhuanlan.zhihu.com/p/443319104)
@@ -137,11 +127,6 @@
 [43 JS 中的 onclick 怎么用？](https://zhuanlan.zhihu.com/p/446357411)
 
 * 点击事件
-
-[42 HTML 中的文档类型（DOCTYPE）是用来干什么的？](https://zhuanlan.zhihu.com/p/447345978)
-
-* 标准模式
-* 怪异模式
 
 [41 JS 中的 new 运算符怎么用？](https://zhuanlan.zhihu.com/p/452421922)
 
@@ -212,6 +197,8 @@
 * 取整
 
 [20 JS 中字符串、数字的相互转换方法？](https://zhuanlan.zhihu.com/p/477491058)
+
+[19 JS中的 Promise 怎么用？](https://zhuanlan.zhihu.com/p/435555341)
 
 [18 JS 中 apply 的用法？](https://zhuanlan.zhihu.com/p/482252372)
 

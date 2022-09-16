@@ -1,5 +1,14 @@
 # HTML
 
+[17 HTML5 是什么？](https://zhuanlan.zhihu.com/p/442934132)
+
+- h5
+
+[16 HTML 中的文档类型（DOCTYPE）是用来干什么的？](https://zhuanlan.zhihu.com/p/447345978)
+
+- 标准模式
+- 怪异模式
+
 [15 input 的 type 为 number 时的两个坑？](https://zhuanlan.zhihu.com/p/482118995)
 
 - 去掉箭头
