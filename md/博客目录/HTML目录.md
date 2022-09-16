@@ -1,5 +1,15 @@
 # HTML
 
+
+
+[19 常用快捷键 ](https://zhuanlan.zhihu.com/p/336729398)
+
+[18 HTML的全局属性](https://zhuanlan.zhihu.com/p/339888561)
+
+* contenteditable
+* hidden
+* tabindex
+
 [17 HTML5 是什么？](https://zhuanlan.zhihu.com/p/442934132)
 
 - h5
