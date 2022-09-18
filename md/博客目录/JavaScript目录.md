@@ -1,12 +1,12 @@
 # JavaScript
 
-[98 JavaScript运行原理]()
+[98 JavaScript运行原理](https://github.com/clouddawn/blog/blob/main/md/md6/213%20JS%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86.md)
 
 * 高级编程语言
 * 浏览器的工作原理、内核、渲染过程
 * JS引擎
 
-[97 TypeScript会取代JavaScript吗]()
+[97 TypeScript会取代JavaScript吗](https://github.com/clouddawn/blog/blob/main/md/md6/212%20TypeScript%E4%BC%9A%E5%8F%96%E4%BB%A3JavaScript%E5%90%97%20.md)
 
 * 类型约束
 
