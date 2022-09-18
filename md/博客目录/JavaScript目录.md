@@ -1,6 +1,14 @@
 # JavaScript
 
+[98 JavaScript运行原理]()
 
+* 高级编程语言
+* 浏览器的工作原理、内核、渲染过程
+* JS引擎
+
+[97 TypeScript会取代JavaScript吗]()
+
+* 类型约束
 
 [96 JS引擎和代码执行](https://zhuanlan.zhihu.com/p/336562695)
 
