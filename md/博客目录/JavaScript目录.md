@@ -94,7 +94,7 @@
 
 [62 switch语句的用法](https://zhuanlan.zhihu.com/p/270310342?)
 
-[61 Array.from()](https://zhuanlan.zhihu.com/p/410481121)
+[61 Array.from()](https://github.com/clouddawn/blog/blob/main/md/md6/220_Array.form.md)
 
 [60 事件参考](https://zhuanlan.zhihu.com/p/412771985)
 
