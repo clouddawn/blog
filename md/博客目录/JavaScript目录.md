@@ -1,6 +1,63 @@
 # JavaScript
 
+[114_对象的方法补充](https://github.com/clouddawn/blog/blob/main/md/md7/235_JS%E5%8E%9F%E5%9E%8B%E5%86%85%E5%AE%B9%E8%A1%A5%E5%85%85.md)
 
+* `hasOwnProperty`
+* `in/for in` 操作符
+* `instanceof`
+* `isPrototypeOf`
+
+[113_如何访问和修改对象的原型](https://github.com/clouddawn/blog/blob/main/md/md7/234_%E5%A6%82%E4%BD%95%E8%AE%BF%E9%97%AE%E5%92%8C%E4%BF%AE%E6%94%B9%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8E%9F%E5%9E%8B.md)
+
+* `Object.getPrototypeOf()`
+* `Object.setPrototypeOf()`
+* `Object.create()`
+
+[112_JS 如何实现 Number.prototype.toString 方法？](https://github.com/clouddawn/blog/blob/main/md/md7/233_JS%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0toString%E6%96%B9%E6%B3%95.md)
+
+[111_深入JS面向对象继承](https://github.com/clouddawn/blog/blob/main/md/md7/232_%E6%B7%B1%E5%85%A5JS%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BB%A7%E6%89%BF.md)
+
+* JavaScript 中的类和对象
+* 面向对象的特性 - 继承
+* JavaScript 原型链
+* Object 的原型
+* 原型链关系的内存图
+* Object 是所有类的父类
+* 通过原型链实现继承
+* 继承创建对象的内存图
+* 原型链继承的弊端
+* 借用构造函数继承
+* 原型式继承函数
+* 寄生式继承函数
+* 寄生组合式继承
+
+[110_JS创建多个对象的方案](https://github.com/clouddawn/blog/blob/main/md/md7/231_JS%E5%88%9B%E5%BB%BA%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E6%A1%88.md)
+
+* 字面量创建的方式
+* 工厂模式
+* 构造函数
+* new 操作符调用的作用
+* 对象的原型
+* 函数的原型 prototype
+* 创建对象的内存表现
+* 赋值为新的对象
+* prototype 添加属性
+* constructor 属性
+* 重写原型对象
+* 原型对象的 constructor
+* 创建对象 - 构造函数和原型结合
+
+[109_Object方法对对象限制](https://github.com/clouddawn/blog/blob/main/md/md6/230_Object%E6%96%B9%E6%B3%95%E5%AF%B9%E5%AF%B9%E8%B1%A1%E9%99%90%E5%88%B6.md)
+
+* `Object.preventExtensions()` 不可扩展
+* `Object.seal()` 封闭对象
+* `Object.freeze()` 冻结对象
+
+[108_获取属性描述符](https://github.com/clouddawn/blog/blob/main/md/md6/229_%E8%8E%B7%E5%8F%96%E5%B1%9E%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%AC%A6.md)
+
+* `Object.defineProperties`
+* `Object.getOwnPropertyDescriptor`
+* `Object.getOwnPropertyDescriptors`
 
 [107_JS 函数的 this 指向](https://github.com/clouddawn/blog/blob/main/md/md6/217_JS%E5%87%BD%E6%95%B0%E7%9A%84this%E6%8C%87%E5%90%91.md)
 
