@@ -130,6 +130,88 @@ super([arguments]);
 super.functionOnParent([arguments]);
 ```
 
+## 继承内置类
+
+* 我们也可以让我们的类继承自内置类，比如Array：
+
+```js
+class NewArray extends Array {
+    lastItem(){
+        return this[this.length - 1];
+    }
+}
+const array = new NewArray(10,20,30);
+console.log(array.lastItem());
+```
+
+## 类的混入 mixin
+
+* JavaScript 的类只支持单继承：也就是只能有一个父类
+  * 那么在开发中我们我们需要在一个类中添加更多相似的功能时，应该如何来做呢？ 
+  * 这个时候我们可以使用混入（mixin）；
+
+```js
+function mixinRunner(BaseClass){
+    return class extends BaseClass {
+        running(){
+            console.log("running~");
+        }
+    }
+}
+
+function mixinEater(BaseClass){
+    return class extends BaseClass {
+        eating(){
+            console.log("eating~");
+        }
+    }
+}
+
+class Person {
+    
+}
+
+class NewPerson extends mixinEater(mixinRunner(Person)){
+    
+}
+
+const np = new NewPerson();
+np.eating();
+np.running();
+```
+
+## JavaScript 中的多态
+
+* 面向对象的三大特性：封装、继承、多态。
+  * 前面两个我们都已经详细解析过了，接下来我们讨论一下JavaScript的多态。
+* JavaScript有多态吗？
+  * 维基百科对多态的定义：多态（英语：polymorphism）指为不同数据类型的实体提供统一的接口，或使用一个单一的符号来表示多个不同的类型。
+  * 非常的抽象，个人的总结：不同的数据类型进行同一个操作，表现出不同的行为，就是多态的体现。
+* 那么从上面的定义来看，JavaScript 是一定存在多态的。
+
+```js
+function sum(a,b){
+    console.log(a + b);
+}
+
+sum(10, 20);
+sum("abc", "cba");
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
