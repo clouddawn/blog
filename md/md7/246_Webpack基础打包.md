@@ -17,7 +17,7 @@
 
 * 我们先来看一下官方的解释：
   * webpack  is a *static module bundler* for modern JavaScript applications.
-* webpack 是一个静态的模块化打包工具，为现代的 JavaScript 应用程序；
+* webpack 是一个静态的模块化[打包](https://github.com/clouddawn/blog/blob/main/md/md7/252_webpack%E4%B8%AD%E7%9A%84%E6%89%93%E5%8C%85.md)工具，为现代的 JavaScript 应用程序；
 * 我们来对上面的解释进行拆解：
   * 打包 bundler：webpack 可以将帮助我们进行打包，所以它是一个打包工具
   * 静态的 static：这样表述的原因是我们最终可以将代码打包成最终的静态资源（部署到静态服务器）；
