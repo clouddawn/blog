@@ -119,6 +119,36 @@ import("./utils/math.js").then(({sum}) => {
 * 组件实例有一个$refs属性：
   * 它一个对象Object，持有注册过 ref attribute 的所有 DOM 元素和组件实例。
 
+```html
+<template>
+  <div>
+    <Friends ref="friends" :message="message"></Friends>
+  </div>
+</template>
+
+<script>
+import Friends from "./Friends.vue";
+
+export default {
+  name: "MeiChangSu",
+  components: {
+    Friends
+  },
+  data() {
+    return {
+      count: 0,
+      message: "江湖再见"
+    };
+  },
+  mounted() {
+    console.log(this.$refs.friends.names);
+    console.log(this.$refs.friends.message)
+    this.$refs.friends.sayHi();
+  }
+};
+</script>
+```
+
 
 
 
