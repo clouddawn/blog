@@ -1,4 +1,4 @@
-# TypeScript 01
+# TypeScript
 
 ## 认识 TypeScript
 
@@ -1717,15 +1717,110 @@ export namespace Price {
 }
 ```
 
+## 类型的查找
 
+* 除了我们自己编写类型，也会用到一些其他的类型：
 
+```ts
+const imageEl = document.getElementById("image") as HTMLImageElement;
+```
 
+* 大家是否会奇怪，HTMLImageElement 类型来自哪里呢？甚至是 document 为什么可以有 getElementById 的方
+  法呢？
+  * 其实这里就涉及到 typescript 对类型的管理和查找规则了。
+* 这里先介绍另外的一种 typescript 文件：`.d.ts` 文件
+  * 它是用来做类型的声明(`declare`)。 它仅仅用来做类型检测，告知 typescript 我们有哪些类型；
+* 那么 typescript 会在哪里查找我们的类型声明呢？
+  * 内置类型声明；
+  * 外部定义类型声明；
+  * 自己定义类型声明；
 
+##  内置类型声明
 
+* 内置类型声明是 typescript 自带的、内置了 JavaScript 运行时的一些标准化 API 的声明文件；
+  * 包括比如 Math、Date 等内置类型，也包括 DOM API，比如 Window、Document 等；
 
+## 外部定义类型声明和自定义声明
 
+* 外部类型声明通常是我们使用一些库（比如第三方库）时，需要的一些类型声明。
+* 这些库通常有两种类型声明方式：
+* 方式一：在自己库中进行类型声明（编写.d.ts文件），比如 axios
+* 方式二：通过社区的一个公有库 DefinitelyTyped 存放类型声明文件
+  * 该库的GitHub地址：https://github.com/DefinitelyTyped/DefinitelyTyped/
+  * 大多数情况下，类型声明包的名称应始终与 上的包名称相同`npm`，但以 为前缀`@types/`
+* 什么情况下需要自己来定义声明文件呢？
+  * 情况一：我们使用的第三方库是一个纯的 JavaScript库，没有对应的声明文件；比如 lodash
+  * 情况二：我们给自己的代码中声明一些类型，方便在其他地方直接进行使用；
 
+## 声明变量-函数-类
 
+```ts
+let name = "丁元英";
+let age = 37;
+let height = 1.80;
+
+function foo(){
+  console.log('foo');
+}
+
+function bar(){
+  console.log('bar');
+}
+
+function Person(name,age){
+  this.name = name;
+  this.age = age;
+}
+```
+
+-
+
+```ts
+declare let name: string;
+declare let age: number;
+declare let height: number;
+
+declare function foo(): void;
+declare function bar(): void;
+
+declare class Person {
+  name: string
+  age: number
+  
+  constructor(name: string, age: number)
+}
+```
+
+## 声明模块
+
+```ts
+declare module "lodash" {
+  export function join(args: any[]): any;
+}
+```
+
+* 声明模块的语法： `declare module '模块名'{}`
+  * 在声明模块的内部，可以通过 export 导出对应库的类、函数等；
+
+## 声明文件
+
+* 在某些情况下，我们也可以声明文件：
+  * 比如在开发 vue 的过程中，默认是不识别我们的 `.vue` 文件的，那么我们就需要对其进行文件的声明；
+  * 比如在开发中我们使用了 jpg 这类图片文件，默认 typescript 也是不支持的，也需要对其进行声明；
+
+```ts
+declare module '*.vue' {
+  import { DefineComponent } from 'vue';
+  const component: DefineComponent
+  
+  export default component
+}
+
+declare module '*.jpg' {
+  const src: string
+  export default src
+}
+```
 
 
 
