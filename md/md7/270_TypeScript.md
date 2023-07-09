@@ -1687,6 +1687,42 @@ console.log(getLength({length: 100, name: "刘天"}));
 
 ## 模块化开发
 
+### 非模块（Non-modules）
+
+* TypeScript 认为什么是一个模块
+
+  *  JavaScript 规范声明任何没有 export 的 JavaScript 文件都应该被认为是一个脚本，而非一个模块。
+  * 在一个脚本文件中，变量和类型会被声明在共享的全局作用域，将多个输入文件合并成一个输出文件，或者在 HTML使用多
+    个` <script>` 标签加载这些文件。
+
+* 如果你有一个文件，现在没有任何 import 或者 export，但是你希望它被作为模块处理，添加这行代码：
+
+  ```js
+  expord {}
+  ```
+
+* 这会把文件改成一个没有导出任何内容的模块，这个语法可以生效，无论你的模块目标是什么.
+
+### 内置类型导入（Inline type imports）
+
+* 推荐使用 type 前缀，表明被导入的是一个类型
+
+```ts
+import { type IFoo, type IDType} from "./foo";
+// 或者
+// import type { IFoo, IDType} from "./foo";
+
+const id: IDType = 100;
+const foo: IFoo = {
+  name: "丁元英",
+  age: 18
+}
+```
+
+* 这些可以让一个非 TypeScript 编译器比如 Babel、swc 或者 esbuild 知道什么样的导入可以被安全移除。
+
+
+
 * TypeScript 支持两种方式来控制我们的作用域：
   * 模块化：每个文件可以是一个独立的模块，支持 ES Module，也支持 CommonJS；
   * 命名空间：通过 namespace 来声明一个命名空间
@@ -1701,7 +1737,10 @@ export function sub(num1: number, num2: number){
 }
 ```
 
+* TypeScript 有它自己的模块格式，名为 namespaces ，它在 ES 模块标准之前出现.
 * 命名空间在 TypeScript 早期时，称之为内部模块，主要目的是将一个模块内部再进行作用域的划分，防止一些命名冲突的问题。
+* 虽然命名空间没有被废弃，但是由于 ES 模块已经拥有了命名空间的大部分特性，因此更推荐使用 ES 模块，这样才能与
+  JavaScript 的（发展）方向保持一致。
 
 ```ts
 export namespace Time {
@@ -1739,6 +1778,19 @@ const imageEl = document.getElementById("image") as HTMLImageElement;
 
 * 内置类型声明是 typescript 自带的、内置了 JavaScript 运行时的一些标准化 API 的声明文件；
   * 包括比如 Math、Date 等内置类型，也包括 DOM API，比如 Window、Document 等；
+* TypeScript 使用模式命名这些声明文件 lib.[something].d.ts。
+
+![image](../images7/270/05.png)
+
+* 内置类型声明通常在我们安装typescript的环境中会带有的；
+  * https://github.com/microsoft/TypeScript/tree/main/src/lib
+
+### 内置声明的环境
+
+* 可以通过 target 和 lib 来决定哪些内置类型声明是可以使用的：
+  * 例如，startsWith 字符串方法只能从称为 ECMAScript 6 的 JavaScript 版本开始使用；
+* 我们可以通过 target 的编译选项来配置：TypeScript 通过 lib 根据您的 target 设置更改默认包含的文件来帮助解决此问题。
+  * https://www.typescriptlang.org/tsconfig#lib 
 
 ## 外部定义类型声明和自定义声明
 
