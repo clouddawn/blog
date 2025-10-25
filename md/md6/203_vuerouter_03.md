@@ -1,4 +1,4 @@
-# vuerouter 03
+# vue-router 03
 
 ## 路由代码跳转
 
@@ -247,7 +247,53 @@ export default {
 
 ![images](../images6/203/02.png)
 
+### router 和 route 的区别
 
+* 可以在组件模板中使用 `$route` 来访问当前的路由对象。
+* 在组件模板中，路由器实例将被暴露为 `$router`。这与同样被暴露的 `$route` 一样，但注意前者最后有一个额外的 `r`。
+
+* 如果我们使用选项式 API，我们可以在 JavaScript 中如下访问这两个属性：`this.$router` 和 `this.$route`。
+
+  ```js
+  export default {
+    methods: {
+      goToAbout() {
+        this.$router.push('/about')
+      },
+    },
+  }
+  ```
+
+* 对于组合式 API，我们不能通过 `this` 访问组件实例，所以 Vue Router 给我们提供了一些组合式函数。
+
+  ```vue
+  <script setup>
+  import { computed } from 'vue'
+  import { useRoute, useRouter } from 'vue-router'
+  
+  const router = useRouter()
+  const route = useRoute()
+  
+  const search = computed({
+    get() {
+      return route.query.search ?? ''
+    },
+    set(search) {
+      router.replace({ query: { search } })
+    },
+  })
+  </script>
+  ```
+
+* 我们常常以 `router` 作为路由器实例提及。即由 `createRouter()` 返回的对象。在应用中，访问该对象的方式取决于上下文。
+* 例如，在组合式 API 中，它可以通过调用 `useRouter()` 来访问。在选项式 API 中，它可以通过 `this.$router` 来访问。
+* 类似地，当前路由会以 `route` 被提及。基于不同 API 风格的组件，它可以通过 `useRoute()` 或 `this.$route` 来访问。
+
+
+
+参考：
+
+[1] https://router.vuejs.org/zh/guide/
 
 
 
