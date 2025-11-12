@@ -24,10 +24,7 @@
 
 ### sticky
 
-CSS3 新属性，表现类似**position:relative**和**position:fixed**的合体，在目标区域在屏幕中可见
-
-注：兼容性较差，一般不用
-![image](../images/09/sticky兼容性.PNG)
+CSS3 属性，表现类似**position:relative**和**position:fixed**的合体，在目标区域在屏幕中可见
 
 ## 普通流与相对定位
 
