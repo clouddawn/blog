@@ -1,6 +1,4 @@
-# claude code
-
-https://my.feishu.cn/wiki/Takxwov60iO5OOkOmpEcpOGynac
+# Claude code
 
 # 一、初步上手
 
@@ -19,7 +17,7 @@ https://my.feishu.cn/wiki/Takxwov60iO5OOkOmpEcpOGynac
 
 以 **Cursor** 为例，下载进入后，可以构建如图的开发环境布局：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=YWFmM2Y2N2Y3NzhjOTM0ZGQ1NTM2ZWY1OWI0NzU2YjRfSmkzbHlORmpoUUdqYzBnekd5R01jZ3pnVDlZNk1zYURfVG9rZW46U2J6cmJsYWhXb1NRYUl4bE9mS2NnZjJObjZjXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/01.png)
 
 
 
@@ -37,7 +35,7 @@ https://my.feishu.cn/wiki/Takxwov60iO5OOkOmpEcpOGynac
 winget install Git.Git
 ```
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NzMyNzNjZjQzY2Y4M2UzZGY0NWNlMjAzYjU3ZmM5YmNfRWYxVUNMR0x2aHBZc0ZNbjdCMmkweHdTVWxjTktkRlBfVG9rZW46R1NwU2JGUGR3b05Mck14c1RoRmNvSEZqbndlXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/02.png)
 
 **步骤 2**：在ide终端输入代码，下载Claude code
 
@@ -75,7 +73,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 claude --version
 ```
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NWNhODU0MDgwYTM5MzI3ZGQxYmZkM2YzZDFkYzM0ODJfQThDYmNTVzl0SzlSWDQ3bVVwNHM4QWVQVnJCbXloTzZfVG9rZW46S2VFNGJQSzlWb3l0czl4cEd4eGNadnVFbm5oXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/03.png)
 
 ### **方式 2：Agent原生安装（需魔法上网）**
 
@@ -103,7 +101,7 @@ claude --version
 winget install Git.Git
 ```
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=YTJlN2Q3ZjdkODFmYTRmY2ExYjZkMmQ5MjllZDkxOWZfOXRacVA4dFV2THY3eVNldkFyeWo3UU5hcUpPSjhTeXJfVG9rZW46TExpV2J1OXJZb0ZtaFl4Z2h4Q2NDRnhsbmNoXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/04.png)
 
 **步骤 2**：在ide agent输入以下提示词，让agent一条龙搞定Claude code安装
 
@@ -126,7 +124,7 @@ claude --version
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MzI0ZGMwNjFkNGU3ZjMzMDQ4MDBjNTExOWU2NGY2ZmFfZVBKbEhNcEFmVTZIcU1MSWpvOHVaUTdKMkJEbXR2MVhfVG9rZW46RWEzd2JTSGxVb2RkMUJ4bnFvWWNKbnhWbkxnXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/05.png)
 
 **步骤 2**：向ide agent输入提示词：
 
@@ -134,7 +132,7 @@ claude --version
 帮我把homebrew加到PATH路径变量里面去
 ```
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MzI5Y2M0MzYzYWVlZWFiYjBmNjljNTQyZmQ4MTU3NThfSVlKSEZ4R2hkNWVTY0I1dHNwU0UxS0xha3RHVnAwR1RfVG9rZW46R0dES2JHbVFGb1pJck14RFFDYmNzT1F6bkdlXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/06.png)
 
 **步骤 3**：在ide终端输入代码，安装Claude Code
 
@@ -159,25 +157,25 @@ claude --version
 
 **步骤1：**在下载页，根据系统选择对应下载包：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MGNkNTgyOWQ5YWIxOTg4N2Y2NzI4NjViNDE4YjA5NGNfQTJ0T1F5MmhGb0VaMnRvOGxUZDhYM2F1clh5WkJGNGxfVG9rZW46V0xIUWJhSkRab3JSanR4M2Q5VmNSanYybnhkXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/07.png)
 
 **步骤2：**安装完成后，**务必在打开Claude Code之前**，优先设置CC Switch。在CC Switch的Claude Code页面添加API Key供应商：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NWZkNGNmM2UwMWIzODVkYmJlMDE2ODQ4ODU1NmQxZWZfT2hYbDBtVUY5clNCSXJHWTFaSUF2WmNRYXU3Y3BaUHZfVG9rZW46WjBxVmJoUlR6bzBSS3h4d00yaGNhenF3blZmXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/08.png)
 
 **步骤3：**以 **Minimax** 为例，选择对应厂商（中国版），然后填写API Key和Base URL：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU4NWQ0MGMyOThhYWY3NDNlOThjMWQxNTIzYzc1NWVfSGdGWGpNcDJJUmQ5d0FCWkZTMVZkTGxzdXg3WE00M29fVG9rZW46VDdkd2JRcFFub0xXcmp4a3FJZmN6a1FybjFkXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MzlhOWRiMWQyZGQyNWFmZDRhZWViNTc2MzE0MzViNzJfdVg4b2FKbzZ1TmJRWHhsTDdIWFBUMFNjck1JaGxwVWlfVG9rZW46VEZWUWJWbHNpb0JtUjJ4ZzdKbWN4MGh5bmhxXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/09.png)![img](../images8/354/10.png)
 
 
 
 > - 如果不知道Base URL，可以在API Key的官方文档里找到（以[Minimax的官方文档](https://platform.minimaxi.com/docs/guides/models-intro)为例）
 >
-> ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NjMxZGVjNzMzYzc3MjQwNDI2NGQ2MjQwOTQzODE5ODJfYWZOa0RhYnExeWRWWXhaaUl5aVVtMkdZZFZlMmViUmFfVG9rZW46QkN1UWJEalIxb2FSOWt4U1RBM2MxeEdSbmNiXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+> ![img](../images8/354/11.png)
 
 **步骤4：**选择「启用」设置好的API，CC的大模型配置完成！下一步可以准备打开Claude Code了：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=N2MxOTBjN2I1MDAwYzkyZWY0OWM2NWE3NDM3NGM5YjRfeGZLMnNyajhlWDVpZENJYnc3U0ZFT1d5eHFJNGFmUkZfVG9rZW46VHlQbmJXQ25Db0ZOQkh4OGd0UmNmaDI2blRkXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/12.png)
 
 
 
@@ -189,7 +187,7 @@ claude --version
 claude
 ```
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NWY2MjE1ZTQwODY5YTM1ZmM2MzdlZGYyNTNhNzZjZDVfamQ2UjBWbnVjb0Q4Q3EzcHY3ZUtkU3YxZTZPWUxLd1RfVG9rZW46SVFEcGI2ZU1Mb0I1aDd4RGdudGM3QzJNbkJnXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=YTU1OTZiMmIxMmI0OWFkOWY0YTViMWE2NTNlYjkwZjFfNHBjNEg1SUdEcXVNV0RIS29WQ2d3UlRYOG9uTDRvQVlfVG9rZW46RkhUV2JMdlVxb3pSaDd4d0dxemNrNExkbkFIXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/13.png)![img](../images8/354/14.png)
 
 
 
@@ -197,11 +195,11 @@ claude
 
 **步骤2：**根据个人喜好设置皮肤与主题，然后一路 `yes` 后，进入CC主界面：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=YzUzODdkYTVmMjJiZjNkMTY2MjRmYzUxOGY0OWY1YjBfNnZrdTFJZTM2elk2aGRUNjRTUHNmc0wxZXBoYzFtQTVfVG9rZW46Q0Z1amIxbjl1b3RTb054UG84T2Myc0lObm9jXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/15.png)
 
 **步骤3：**默认情况下，CC接到任务后会进入 **计划模式（Plan Mode）**：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=YTU2MjhjMjlhZmI2ZmU1ZjllNmRkNjAyM2UyODljNmNfQlZlTlE5TWFHMDVXclNnWEZaZlNTNE1yUGZjdXcySjJfVG9rZW46VVhFNWJDVmhFbzQ2WFZ4dWFQbmNVcnF2bk40XzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/16.png)
 
 **步骤4：**使用shift+tab，可以让CC在计划模式、默认模式和Accept Edits模式之间来回切换
 
@@ -223,7 +221,7 @@ claude --dangerously-skip-permissions
    1. **仅同意这一次**的命令执行
    2. **同意**，且该项目之后执行项目依赖安装时，不再询问
    3. **不同意**，再商量
-   4. ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NmU3NTAwY2MwM2MzYzdkZmM4ODBiMGI1NDUwOWRmYzdfUXRSaWJpNzVXUDc3dHJxNjlyQ3RoeVMya2IyMUYyNThfVG9rZW46QWwxU2Jxa3Q1b203cjl4VGE5VWNiN0hhbmFiXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+   4. ![img](../images8/354/17.png)
 
 
 
@@ -233,7 +231,7 @@ claude --dangerously-skip-permissions
 
 使用 `@` 指令让CC进行本地文件信息查找：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=ODE4MjgzNzkyNzM5N2RhYzMzMWI4NmUwZDE2ZTZmYWNfaGtoZ2tDQ29BSDRPU2NVZ29IZ1BRd2dBM0ZFdU4yS3lfVG9rZW46WFRWT2JFc2llb3ZOUnN4aWt5U2NDVUF2bklnXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/18.png)
 
 ### **方式 2：图片**
 
@@ -296,7 +294,7 @@ claude --dangerously-skip-permissions
     /context
     ```
 
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2IyYWM0MWJjMzA2YzFmYTExMWU5NmFhZDMxZDNkNGNfdkxENUhMNDVqdEpxVmdyVGNtN25JcFlwZHFJUVE1ZWNfVG9rZW46SlYwM2IycXBqb005R2J4cjFIaWMzRWpibmFlXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/19.png)
 
 **步骤2:**主动压缩上下文
 
@@ -320,7 +318,7 @@ claude --dangerously-skip-permissions
     帮我配一个 statusLine,显示当前目录+模型+上下文剩余百分比 
     ```
 
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjA5NGRkYTA1MGJhMTM5ZjMyZTg3YmNjZTg1M2Q1MThfZDFQdDNac3Z6UUlJc294SE1YMDcyYVZXcEhOQVhXY3JfVG9rZW46RjFDMmJNbTVNb2hqaWF4dnJ2M2N3WktkbnVlXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/20.png)
 
 **步骤5:**对话恢复
 
@@ -353,14 +351,14 @@ claude --dangerously-skip-permissions
 
 输入 `/memory` 后，选择「User Memory」进入：
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NjIwMThlMWE4Y2U3MzFhNWQyMDBiNzZhMTg4Yzc4YjNfYVdHNnZGSlRxdlJ1TG9NV1VoaExZR2JiU2Y0Wm1hd2FfVG9rZW46UEF0SmJOdGNybzhremN4YjhPRmNhQmlEblBkXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/21.png)
 
 
 
 ## 2. Auto Memory
 
 - 打开Auto Memory：输入`/memory` ，选择「**Auto-memory**」并输入回车开启
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=OTk2MTE4ZDIyNTYyNzM1ZGJjNjI1ODk2YmI0MjA3ZDFfREE0T1Exd0lNNUpBSDFqQ1FTWjF6OVVLTFpqTnp4WGxfVG9rZW46TG1sWGJCNGpLb2NnS3R4Zm84Q2NxNTJCblJmXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/22.png)
 
   - > 打开以后，我们与CC的工作交互过程中，那些没有显式的主动写进claude.md的一些习惯、错误、经验，都会以自动记忆形式被记录，但仅限于当前项目，不会跨项目产生影响。
 
@@ -382,7 +380,7 @@ claude --dangerously-skip-permissions
 2. **skill合集网站：****lobehub**
 
    1. 大家既可以根据分类去寻找自己需要的skill，也可以直接在精选合集查看推荐的优质skill
-   2. ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2I3MzUzY2E3YzE4OTM0OTExZGM0MzhlMjdjMjM2NmRfTThQMGFieGpRY3RBSTQ5QWdCaEFaTnBuOUJQSTRpd05fVG9rZW46T01wMmJZTGFub1I3WkJ4MWZiVmNYV01TbnI4XzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+   2. ![img](../images8/354/23.png)
 
 3. **想创建自己的skill？**
 
@@ -391,7 +389,7 @@ claude --dangerously-skip-permissions
 4. **下载了skill怎么装？**
 
    1. 可根据需求，将skill文件放入**项目级skill**与**全局级skill**的存放**文件夹**
-   2. ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=Zjg2MGE3ZWVjYWY1YmY1NjJjNGU4NjIzNDJhODgzMWRfRkdraFVNZFFremJtSFZXZkRtd1E4M0xpR1ozbUU3YVZfVG9rZW46T2U1TGJGWU12b0htTGl4dHJySGNhVUloblBlXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+   2. ![img](../images8/354/24.png)
 
 
 
@@ -428,42 +426,42 @@ claude --dangerously-skip-permissions
 
 1. **自动触发：**任务复杂且存在并行可能时，CC会自动派生子Agent并行推进
 2. **手动创建：**通过指令 `/agents` ，在Library界面进行创建
-   1. ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=YmVmMWRkYTg2YTE1YWRlZGZiN2ZmZjRkYmRlYzI1MTBfUW1jTFRZUDBDZ2pJMVcyaVhnSjA3S1ZyWkx2NXRMNGhfVG9rZW46SnF3RWJXeDFQbzZKQmR4d3d5UmNwbHExbjRlXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+   1. ![img](../images8/354/25.png)
 
 **手动创建步骤：**
 
 **步骤1：**选择创建项目级或全局级子Agent
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=OWUzNzViNThmMDA1YmVjNzJmMGJhM2JmYWY5YTBlY2JfbkRmZGN3cXQwb2U1NlBpWkhIZGpyNkxiVVZobm1EdWJfVG9rZW46UWE2emJXbEZFb24wUFZ4c1dpamNUcVMxbnloXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/26.png)
 
 **步骤2：**选择「AI辅助创建」，让AI根据意图辅助创建
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2VhYmUyYTNjNDMxNWQzZGIyMzdkNDMyNWRhZWM3MTBfZGx1SldJaGxvQUZka3N6c21UODg1WmJHc2dnTlZNRENfVG9rZW46RzZUa2JROFNqbzJjRUF4bGswTmNsN0JtbkpnXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/27.png)
 
 **步骤3：**描述想要的子Agent功能
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=Mzk5Y2Q3MjRmYTA4NzczMWIyMjY2ZGVkMWNkZWQyMzdfTEhpUmNVY3g0ZzRwUGdDUGoyOUo1ZndLaDl0RHZEWmZfVG9rZW46VVdVRGJTMmg4b3lLWXF4b2NtbmNQZ3ZKbk5LXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/28.png)
 
 **步骤4：**决定子Agent工具权限（✓为选中）
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MzdmYTU1ZTM0NzZiNDZmOTczZjg1MjE1MjZiYTY5ZmVfcXVzclNTZFMxR3FGOENBYzRiMmZUTElLdnVwMXZ3R21fVG9rZW46STNQQmJ4b3h3bzdNZ0l4eHZkdWNFbjFybnpoXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/29.png)
 
 **步骤5：**选择Claude的模型
 
 - 一般选Sonnet就可以（如果使用CC Switch配置了模型，选哪个都一样）
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjQ4NTNhYTExY2IxMzFhMTQ0Nzc4YWZiZWEyZGNjMjhfdVo3a0tZMDFaME1BNjhlNDgyQTNMOTNoSnRMb2tkOWJfVG9rZW46RWduY2IxeHZ1b0NNOGF4R1NwemNBbGtZbmJoXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/30.png)
 
 **步骤6：**为子Agent挑选区别于主Agent的颜色
 
 - 选个好看的颜色
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NTg5YzI1ZmY1YWM2MzBmNTE0MzQ2MTRhYjE2NDRmOWRfOUFuVjdabVFQMFVRZEhBNnFXVDhaclRLM1hXc3h3RkhfVG9rZW46VlJTS2JtcFJpbzJwS2Z4Mnk2QWN3SHNHbk1iXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/31.png)
 
 **步骤7:**调用与管理子Agent
 
 - 输入 `/agents`，在Library下选择已创建的项目级子Agent
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NDVmMjZjODIzYTE3MTU2MGZmZDIxZTBlYjBiNmExYzFfZEc5TVRkZG1KZ3FKUFl6UlVjZDViNkpibXlVMkxJOEhfVG9rZW46T0dZYWI4WlNXbzQybUF4NEUycmMwQ1NmbndjXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/32.png)
 - 根据需求对子Agent进行相应操作
-  - ![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=MjgyYTk1NjFmNzc0NGJmZmYwMmFjNjdkOTIwZmQxYWZfMWpHenZMT0d1c0l0SFkxWHNRQ3hHOVpObmhiWDh1d1ZfVG9rZW46VXA3TGJweUlVb01GMWd4cVNNSmMxMTRGbmhmXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+  - ![img](../images8/354/33.png)
 
 
 
@@ -486,11 +484,11 @@ claude --dangerously-skip-permissions
 
 **步骤1：**通过指令 `/plugin` 进入插件管理界面
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmVjYTdkNWI5MDM4MTdkYzljNzJlOTI2NjJhOTdkNGNfdFVNVFdwRmtSRFh0dDBFU1ZseURKd0FXdzZIa2w0UTZfVG9rZW46UjlNaGJvWUhUb2hXd3p4Y2lydGNxbVUzbkVkXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/34.png)
 
 **步骤2：**在插件管理界面，可以收录下载钟意的插件，或管理已下载插件
 
-![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWQ3ODMyYzMxZDQ0MGJhMDUxZWU2ZWFjNjc0N2QwYzZfa01iT21KQnU1MXdKd1ZWTXRyWDN1VWdTeTNIeXNsZk1fVG9rZW46U1BaZWJnRlVYbzhYTnF4QTFmQ2NFN3NXbkJjXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)![img](https://my.feishu.cn/space/api/box/stream/download/asynccode/?code=NDVmNzU4YzhjN2VmMjM5ZGM2ODBlM2FlNmM3NjA4NjFfSUowMTlaSGM4cWFjZWN6TnZJbERqWXpvRW00TnFWM05fVG9rZW46RXZaZ2JncjRrb3NzSzV4amU3Y2NweXRmbndiXzE3ODQ3MDY1MzM6MTc4NDcxMDEzM19WNA&add_watermark=true&scene_type=CCM)
+![img](../images8/354/35.png)![img](../images8/354/36.png)
 
 
 
