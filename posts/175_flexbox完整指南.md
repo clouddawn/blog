@@ -18,7 +18,7 @@
 
 你可以看到这个页面有一个含有顶级标题的 `<header>` 元素，和一个包含三个 `<article>` 的 `<section>` 。我们将使用这些来创建一个非常标准的三列布局，如下所示：
 
-![image](../images5/175/01.png)
+![image](images/images5/175/01.png)
 
 首先，我们需要选择将哪些元素将设置为柔性的盒子。我们需要给这些 flexible 元素的父元素 `display` 设置一个特定值。在本例中，我们想要设置 `<article>` 元素，因此我们给 `<section>` 设置 display：
 
@@ -30,7 +30,7 @@ section {
 
 结果如下：
 
-![image](../images5/175/01.png)
+![image](images/images5/175/01.png)
 
 所以，就这样一个简单的声明就给了我们所需要的一切—非常不可思议，对吧？ 我们的多列布局具有大小相等的列，并且列的高度都是一样。 这是因为这样的 flex 项（flex容器的子项）的默认值是可以解决这些的常见问题的。 
 
@@ -45,7 +45,7 @@ section {
 
 ## 弹性盒属性
 
-![image](../images5/175/02.svg)
+![image](images/images5/175/02.svg)
 
 ### 父级（弹性容器）的属性
 
@@ -61,7 +61,7 @@ section {
 
 ### flex-direction
 
-![image](../images5/175/03.svg)
+![image](images/images5/175/03.svg)
 
 这建立了主轴，从而定义了 flex 项目在 flex 容器中的放置方向。
 
@@ -75,7 +75,7 @@ section {
 
 ### flex-wrap
 
-![image](../images5/175/04.svg)
+![image](images/images5/175/04.svg)
 
 默认情况下，弹性项目都将尝试适应一行。您可以更改它并允许项目根据需要使用此属性进行包装。
 
@@ -111,7 +111,7 @@ section {
 }
 ```
 
-![image](../images5/175/05.svg)
+![image](images/images5/175/05.svg)
 
 
 
@@ -127,7 +127,7 @@ section {
 }
 ```
 
-![image](../images5/175/06.svg)
+![image](images/images5/175/06.svg)
 
 
 
@@ -139,13 +139,13 @@ section {
 }
 ```
 
-![image](../images5/175/07.svg)
+![image](images/images5/175/07.svg)
 
 
 
 ## 子项（弹性项目）的属性
 
-![image](../images5/175/08.svg)
+![image](images/images5/175/08.svg)
 
 ## order
 
@@ -155,7 +155,7 @@ section {
 }
 ```
 
-![image](../images5/175/09.svg)
+![image](images/images5/175/09.svg)
 
 
 
@@ -167,7 +167,7 @@ section {
 }
 ```
 
-![image](../images5/175/10.svg)
+![image](images/images5/175/10.svg)
 
 * 负数无效
 

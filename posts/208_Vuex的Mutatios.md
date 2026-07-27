@@ -185,7 +185,7 @@ this.$store.commit(types.INCREMENT);
     }
 ```
 
-![image](../images6/208/01.png)
+![image](images/images6/208/01.png)
 
 
 

@@ -35,7 +35,7 @@
   * 另一种情况是前端开发人员如果要开发页面, 需要通过PHP和Java等语言来编写页面代码。
   * 而且通常情况下HTML代码和数据以及对应的逻辑会混在一起, 编写和维护都是非常糟糕的事情。
 
-![image](../images6/200/01-后端路由阶段.png)
+![image](images/images6/200/01-后端路由阶段.png)
 
 ## 前端路由阶段
 
@@ -46,14 +46,14 @@
 * 这样做最大的优点就是前后端责任的清晰, 后端专注于数据上, 前端专注于交互和可视化。
 * 并且当移动端(iOS/Android)出现后, 后端不需要进行任何处理, 依然使用之前的一套API即可。
 
-![image](../images6/200/02-前端后端分离阶段.png)
+![image](images/images6/200/02-前端后端分离阶段.png)
 
 ### 单页面富应用阶段:
 
 * 其实SPA最主要的特点就是在前后端分离的基础上加了一层前端路由。
 * 也就是前端来维护一套路由规则。
 
-![image](../images6/200/03-SPA页面页面的阶段.png)
+![image](images/images6/200/03-SPA页面页面的阶段.png)
 
 ### 前端路由的核心是什么呢？
 
@@ -65,7 +65,7 @@
 * URL 的 hash 也就是锚点（#），本质上是改变 window.location 的 href 属性。
 * 我们可以通过直接赋值 location.hash 来改变 href，但是页面不发生刷新。
 
-![image](../images6/200/04.png)
+![image](images/images6/200/04.png)
 
 ### HTML5 的 history 模式：pushState
 
@@ -79,7 +79,7 @@
 history.pushState(state, title[, url])
 ```
 
-![image](../images6/200/05.png)
+![image](images/images6/200/05.png)
 
 #### history.replaceState()
 
@@ -89,7 +89,7 @@ history.pushState(state, title[, url])
 history.replaceState(stateObj, title[, url]);
 ```
 
-![image](../images6/200/06.png)
+![image](images/images6/200/06.png)
 
 #### history.go()
 
@@ -107,7 +107,7 @@ history.go(delta);
 
   * 因此，例如：`history.go(2)` 向前移动两页，`history.go(-2)` 则向后移动两页。如果未向该函数传参或`delta`相等于 0，则该函数与调用`location.reload()`具有相同的效果，会刷新当前页面。
 
-![image](../images6/200/07.png)
+![image](images/images6/200/07.png)
 
 #### history.back()
 

@@ -3,7 +3,7 @@
 ## 认识 webpack
 
 * 随着前端的快速发展，前端的开发变的越来越复杂：
-  * 比如开发过程中我们需要通过[模块化](https://github.com/clouddawn/blog/blob/main/md/md7/249_%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91.md)的方式来提高效率；
+  * 比如开发过程中我们需要通过[模块化](https://github.com/clouddawn/blog/blob/main/posts/249_%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91.md)的方式来提高效率；
   * 比如也会使用一些高级的特性来加快我们的开发效率或者安全性，比如通过 ES6+、TypeScript 开发脚本逻辑，通过 sass、less 等方式来编写 css 样式代码；
   * 比如开发过程中，我们还希望实时的监听文件的变化并且反映到浏览器上，提高开发的效率；
   * 比如开发完成后我们还需要将代码进行压缩、合并以及其他相关的优化；
@@ -17,7 +17,7 @@
 
 * 我们先来看一下官方的解释：
   * webpack  is a *static module bundler* for modern JavaScript applications.
-* webpack 是一个静态的模块化[打包](https://github.com/clouddawn/blog/blob/main/md/md7/252_webpack%E4%B8%AD%E7%9A%84%E6%89%93%E5%8C%85.md)工具，为现代的 JavaScript 应用程序；
+* webpack 是一个静态的模块化[打包](https://github.com/clouddawn/blog/blob/main/posts/252_webpack%E4%B8%AD%E7%9A%84%E6%89%93%E5%8C%85.md)工具，为现代的 JavaScript 应用程序；
 * 我们来对上面的解释进行拆解：
   * 打包 bundler：webpack 可以将帮助我们进行打包，所以它是一个打包工具
   * 静态的 static：这样表述的原因是我们最终可以将代码打包成最终的静态资源（部署到静态服务器）；
@@ -52,7 +52,7 @@
   * 而 webpack-cli 中代码执行时，才是真正利用 webpack 进行编译和打包的过程；
   * 所以在安装 webpack 时，我们需要同时安装 webpack-cli（第三方的脚手架事实上是没有使用 webpack-cli 的，而是类似于自己的 vue-service-cli 的东西）
 
-![image](../images7/246/01.png)
+![image](images/images7/246/01.png)
 
 * 全局安装
 
@@ -144,7 +144,7 @@ module.exports = {
     体等）；
   * 然后遍历图结构，打包一个个模块（根据文件的不同使用不同的 loader 来解析）；
 
-![image](../images7/246/02.png)
+![image](images/images7/246/02.png)
 
 ## css-loader 的使用
 

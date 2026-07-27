@@ -10,11 +10,11 @@
 
 打开控制台，找到对应的样式。
 
-![image](../images7/272/01.png)
+![image](images/images7/272/01.png)
 
 例如我们想修改背景色，那么可以找到起作用的是
 
-![image](../images7/272/02.png)
+![image](images/images7/272/02.png)
 
 直接在css中修改即可生效
 

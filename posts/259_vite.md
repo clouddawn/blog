@@ -137,7 +137,7 @@ module.exports = {
 
 * ESBuild 的构建速度和其他构建工具速度对比：
 
-![image](../images7/259/01.png)
+![image](images/images7/259/01.png)
 
 * ESBuild 为什么这么快呢？
   * 使用 Go 语言编写的，可以直接转换成机器代码，而无需经过字节码；

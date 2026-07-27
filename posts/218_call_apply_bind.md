@@ -12,7 +12,7 @@ foo(8,9);
 foo.call('call',8,9)
 ```
 
-![image](../images6/218/01.png)
+![image](images/images6/218/01.png)
 
 ## Function.prototype.apply()
 
@@ -42,7 +42,7 @@ var newFoo = foo.bind('add');
 newFoo(8,9);
 ```
 
-![image](../images6/218/02.png)
+![image](images/images6/218/02.png)
 
 
 

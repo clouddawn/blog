@@ -195,7 +195,7 @@ npm install url-loader -D
 * Loader 是用于特定的模块类型进行转换；
 * Plugin 可以用于执行更加广泛的任务，比如打包优化、资源管理、环境变量注入等；
 
-![image](../images7/247/01.png)
+![image](images/images7/247/01.png)
 
 ## ClenWebpackPlugin
 
@@ -369,13 +369,13 @@ new CopyWebpackPlugin({
 
 * 区别
 
-![image](../images7/247/02.png)
+![image](images/images7/247/02.png)
 
 ## Mode 配置代表更多
 
-![image](../images7/247/03.png)
+![image](images/images7/247/03.png)
 
-![image](../images7/247/04.png)
+![image](images/images7/247/04.png)
 
 
 

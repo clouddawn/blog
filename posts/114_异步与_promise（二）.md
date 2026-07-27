@@ -41,9 +41,9 @@ ajax('get','/1,json',{
 
 ### 回调地狱举例
 
-![image](../images4/113/03.PNG)
+![image](images/images4/113/03.PNG)
 
-![image](../images4/113/04.PNG)
+![image](images/images4/113/04.PNG)
 
  
 
@@ -184,7 +184,7 @@ function 获取另一个用户信息(){
     .then(打印用户信息)
 ```
 
-![image](../images4/114/01.PNG)
+![image](images/images4/114/01.PNG)
 
 ---
 
@@ -212,7 +212,7 @@ function 获取用户信息(name){
 )
 ```
 
-![image](../images4/114/02.PNG)
+![image](images/images4/114/02.PNG)
 
 ---
 
@@ -240,7 +240,7 @@ function 获取用户信息(name){
 )
 ```
 
-![image](../images4/114/03.PNG)
+![image](images/images4/114/03.PNG)
 
 ---
 
@@ -259,7 +259,7 @@ let 用户信息 = await 获取用户信息('余罪');
 console.log(用户信息);
 ```
 
-![image](../images4/114/04.PNG)
+![image](images/images4/114/04.PNG)
 
 ---
 
@@ -282,7 +282,7 @@ try {
 }
 ```
 
-![image](../images4/114/05.PNG)
+![image](images/images4/114/05.PNG)
 
 ----
 

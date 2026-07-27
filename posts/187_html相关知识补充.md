@@ -29,7 +29,7 @@ HTML 实体是一段以（&）开头，以（;）结尾的文本（字符串）�
 | 连续多个 | 会被浏览器合并成 1 个 | 每个都会独立显示，不会合并 |
 | 首尾空格 | 被忽略（trim）        | 会被保留并显示             |
 
-![](../images5/187/01.png)
+![](images/images5/187/01.png)
 
 ## 认识 URL
 
@@ -69,9 +69,9 @@ HTML 实体是一段以（&）开头，以（;）结尾的文本（字符串）�
   * 有利于 SE0
   * ...
 
-## [SEO](https://github.com/clouddawn/blog/blob/main/md/md8/340_SEO.md)
+## [SEO](https://github.com/clouddawn/blog/blob/main/posts/340_SEO.md)
 
-## [GEO](https://github.com/clouddawn/blog/blob/main/md/md8/341_GEO.md)
+## [GEO](https://github.com/clouddawn/blog/blob/main/posts/341_GEO.md)
 
 ## 认识字符编码
 
@@ -85,7 +85,7 @@ HTML 实体是一段以（&）开头，以（;）结尾的文本（字符串）�
 * 为了在计算机上也能表示、存储和处理像文字、符号等等之类的字符，就必须将这些字符转换成二进制数字。
 * 当然，肯定不是我们想怎么转换就怎么转换，否则就会造成同一段二进制数字在不同计算机上显示出来的字符不一样的情况，因此必须得定一个统一的、标准的转换规则。
 
-![image](../images5/187/03.png)
+![image](images/images5/187/03.png)
 
 ### [字符编码的发展历史](https://www.jianshu.com/p/899e749be47c)
 

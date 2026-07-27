@@ -379,7 +379,7 @@ import { firstName,lastName,year } from "./profile.js";
 console.log(firstName,lastName,year);
 ```
 
-![image](../images4/145/01.PNG)
+![image](images/images4/145/01.PNG)
 
 ------
 

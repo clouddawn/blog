@@ -4,9 +4,9 @@
 
 * 路由的功能就是 1 对多分发请求
 
-![image](../images4/147/01.png)
+![image](images/images4/147/01.png)
 
-![image](../images4/147/02.png)
+![image](images/images4/147/02.png)
 
 * 原生 html 中访问网页 url 通过 window.location.hash 获取
 * 原生 html 中监听 hashchange 事件可针对不同 url  做出对应操作

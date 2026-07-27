@@ -40,7 +40,7 @@
 * 意思就是你（浏览器）回头调一下这个函数
 * 在中文里，「回头」也有「将来」的意思，如「我回头请你吃饭」
 
-![image](../images4/113/01.PNG)
+![image](images/images4/113/01.PNG)
 
 
 
@@ -249,7 +249,7 @@ const array = ['1','2','3'].map(parseInt)
 console.log(array)
 ```
 
-![image](../images4/113/02.PNG)
+![image](images/images4/113/02.PNG)
 
 ```js
 // map 会传三个参数

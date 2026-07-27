@@ -20,11 +20,11 @@
 
 * babel 的执行阶段
 
-![image](../images7/248/01.png)
+![image](images/images7/248/01.png)
 
 * 当然，这只是一个简化版的编译器工具流程，在每个阶段又会有自己具体的工作：
 
-![image](../images7/248/02.png)
+![image](images/images7/248/02.png)
 
 
 
@@ -149,7 +149,7 @@ module.exports = {
   * 「运行时+编译器」包含了对 template 模板的编译代码，更加完整，但是也更大一些；
   * 仅运行时没有包含对 template 版本的编译代码，相对更小一些；
 
-![image](../images7/248/03.png)
+![image](images/images7/248/03.png)
 
 ## 编写 App.vue 代码
 
@@ -335,11 +335,11 @@ p {
   * 长连接有一个最好的好处是建立连接后双方可以通信（服务器可以直接发送文件到客户端）；
   * 当服务器监听到对应的模块发生变化时，会生成两个文件 .json（manifest文件）和 .js文件（update chunk）；
   * 通过长连接，可以直接将这两个文件主动发送给客户端（浏览器）；
-  * 浏览器拿到两个新的文件后，通过 [HMR runtime](https://github.com/clouddawn/blog/blob/main/md/md7/253_HMR_runtime.md) 机制，加载这两个文件，并且针对修改的模块进行更新；
+  * 浏览器拿到两个新的文件后，通过 [HMR runtime](https://github.com/clouddawn/blog/blob/main/posts/253_HMR_runtime.md) 机制，加载这两个文件，并且针对修改的模块进行更新；
 
 ## HMR 的原理图
 
-![image](../images7/248/04.png)
+![image](images/images7/248/04.png)
 
 ## host 配置
 

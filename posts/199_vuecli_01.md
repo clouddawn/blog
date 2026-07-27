@@ -11,11 +11,11 @@
 
 ## vue/cli2
 
-![image](../images6/199/02.png)
+![image](images/images6/199/02.png)
 
 ### 目录结构
 
-![image](../images6/199/03.png)
+![image](images/images6/199/03.png)
 
 ### Runtime-Compiler 和 Runtime-only 的区别
 
@@ -31,15 +31,15 @@
 * vue-cli 3 提供了 vue ui 命令，提供了可视化配置，更加人性化
 * 移除了static文件夹，新增了public文件夹，并且index.html移动到public中
 
-![image](../images6/199/04.png)
+![image](images/images6/199/04.png)
 
 ### 目录结构
 
-![image](../images6/199/05.png)
+![image](images/images6/199/05.png)
 
 ### 配置
 
-![imag](../images6/199/06.png)
+![imag](images/images6/199/06.png)
 
 [源代码](https://github.com/clouddawn/vue_cli)
 

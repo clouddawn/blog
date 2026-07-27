@@ -75,7 +75,7 @@ $border-width: 1px;
 }
 ```
 
-![images](../images5/155/01.PNG)
+![images](images/images5/155/01.PNG)
 
 
 

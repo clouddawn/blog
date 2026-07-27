@@ -312,7 +312,7 @@ class Person extends Animal {
 let jack = new Person('jack')
 ```
 
-![image](../images5/169/03.PNG)
+![image](images/images5/169/03.PNG)
 
 ### 取值函数（getter）和存值函数（setter）
 
@@ -340,7 +340,7 @@ test.prop
 // 'getter'
 ```
 
-![image](../images5/169/04.PNG)
+![image](images/images5/169/04.PNG)
 
 上面代码中，`prop`属性有对应的存值函数和取值函数，因此赋值和读取行为都被自定义了。
 
@@ -363,7 +363,7 @@ class Animal{
 let dog = new Animal()
 ```
 
-![image](../images5/169/05.PNG)
+![image](images/images5/169/05.PNG)
 
 ```js
 class Person {
@@ -392,9 +392,9 @@ class Person {
 let p1 = new Person('coco');
 ```
 
-![image](../images5/169/06.PNG)
+![image](images/images5/169/06.PNG)
 
-![image](../images5/169/07.PNG)
+![image](images/images5/169/07.PNG)
 
 
 

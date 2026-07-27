@@ -80,7 +80,7 @@ export default {
 
 ### 路由懒加载的效果
 
-![image](../images6/203/01.png)
+![image](images/images6/203/01.png)
 
 ### 懒加载的方式
 
@@ -241,11 +241,11 @@ export default {
 
 * $router为VueRouter实例，想要导航到不同URL，则使用$router.push方法
 
-![image](../images6/203/03.png)
+![image](images/images6/203/03.png)
 
 * $route为当前router跳转对象里面可以获取name、path、query、params等
 
-![images](../images6/203/02.png)
+![images](images/images6/203/02.png)
 
 ### router 和 route 的区别
 

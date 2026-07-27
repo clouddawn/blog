@@ -30,7 +30,7 @@
   View：视图层，可以针对State的变化，显示不同的信息。（这个好理解吧？）
   Actions：这里的Actions主要是用户的各种操作：点击、输入等等，会导致状态的改变
 
-![image](../images6/206/01.png)
+![image](images/images6/206/01.png)
 
 
 
@@ -81,7 +81,7 @@ export default {
 
 ## Vuex状态管理图例
 
-![image](../images6/206/02.png)
+![image](images/images6/206/02.png)
 
 ```js
 // store/index.js

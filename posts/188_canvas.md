@@ -38,7 +38,7 @@ ctx.strokeStyle = "red";
 ctx.stroke();
 ```
 
-![image](../images6/188/01.png)
+![image](images/images6/188/01.png)
 
 ## 颜色、样式和阴影
 
@@ -86,7 +86,7 @@ ctx.strokeStyle = "red";
 ctx.stroke();
 ```
 
-![image](../images6/188/02.png)
+![image](images/images6/188/02.png)
 
 ```js
 const canvas = document.querySelector("#canvas");
@@ -103,7 +103,7 @@ ctx.strokeStyle = "red";
 ctx.stroke();
 ```
 
-![image](../images6/188/03.png)
+![image](images/images6/188/03.png)
 
 
 

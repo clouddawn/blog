@@ -90,7 +90,7 @@ const height: number = "1.80";
 
 * TypeScript 是 JavaScript 的一个超集：
 
-![image](../images7/270/01.png)
+![image](images/images7/270/01.png)
 
 ## JavaScript类型 – number类型
 
@@ -1549,16 +1549,16 @@ turnDirection(Direction.BOTTOM);
 
 * 枚举类型默认是有值的，比如上面的枚举，默认值是这样的：
 
-![image](../images7/270/02.png)
+![image](images/images7/270/02.png)
 
 * 当然，我们也可以给枚举其他值：
   * 这个时候会从100进行递增；
 
-![image](../images7/270/03.png)
+![image](images/images7/270/03.png)
 
 * 也可以赋值其他的类型
 
-![image](../images7/270/04.png)
+![image](images/images7/270/04.png)
 
 ## 认识泛型
 
@@ -1780,7 +1780,7 @@ const imageEl = document.getElementById("image") as HTMLImageElement;
   * 包括比如 Math、Date 等内置类型，也包括 DOM API，比如 Window、Document 等；
 * TypeScript 使用模式命名这些声明文件 lib.[something].d.ts。
 
-![image](../images7/270/05.png)
+![image](images/images7/270/05.png)
 
 * 内置类型声明通常在我们安装typescript的环境中会带有的；
   * https://github.com/microsoft/TypeScript/tree/main/src/lib

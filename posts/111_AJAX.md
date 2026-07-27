@@ -308,7 +308,7 @@ const obj2 = {"hi":'来了，老弟',fn:()=>{}};
 JSON.stringify(obj2);
 ```
 
-![image](../images4/111/01.PNG)
+![image](images/images4/111/01.PNG)
 
 
 

@@ -59,4 +59,4 @@ function foo(x,y,z){
 foo('贾玲','马丽','张小斐')
 ```
 
-![images](../images6/220/1.png)
+![images](images/images6/220/1.png)

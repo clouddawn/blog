@@ -20,7 +20,7 @@ for(let i of s){
 console.log(s);
 ```
 
-![image](../images7/239/01.png)
+![image](images/images7/239/01.png)
 
 * 上面代码通过`add()`方法向 Set 结构加入成员，结果表明 Set 结构不会添加重复的值。
 

@@ -23,7 +23,7 @@ var x:string = 'hi'
 
 * **typeof**    获取一个数据的类型
   * **注意** 
-  * ![image](../images5/154/01.PNG)
+  * ![image](images/images5/154/01.PNG)
 
 * 类型就是对数据的种类的区分
 

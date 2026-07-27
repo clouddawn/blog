@@ -34,7 +34,7 @@ var example1 = new Vue({
 })
 ```
 
-![image](../images5/162/01.PNG)
+![image](images/images5/162/01.PNG)
 
 
 

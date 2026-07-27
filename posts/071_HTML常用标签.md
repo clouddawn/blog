@@ -164,7 +164,7 @@ body 元素里面的内容将是你在浏览器窗口中看到的东西，也就
     </table>
 ```
 
-![image](../images3/73/01.PNG)
+![image](images/images3/73/01.PNG)
 
 ## table的样式
 
@@ -184,7 +184,7 @@ body 元素里面的内容将是你在浏览器窗口中看到的东西，也就
         }
 ```
 
-![image](../images3/73/02.PNG)
+![image](images/images3/73/02.PNG)
 
 ```css
         /*fixed*/
@@ -197,7 +197,7 @@ body 元素里面的内容将是你在浏览器窗口中看到的东西，也就
         }
 ```
 
-![image](../images3/73/03.PNG)
+![image](images/images3/73/03.PNG)
 
 * border-collapse 和 border-spacing用来调整表格Border的间隔
 
@@ -217,7 +217,7 @@ body 元素里面的内容将是你在浏览器窗口中看到的东西，也就
             }
     ```
 
-  ![image](../images3/73/04.PNG)
+  ![image](images/images3/73/04.PNG)
 
   ​		
 
@@ -233,7 +233,7 @@ body 元素里面的内容将是你在浏览器窗口中看到的东西，也就
           }
    ```
 
-  ![image](../images3/73/05.PNG)
+  ![image](images/images3/73/05.PNG)
 
 ## img元素
 
@@ -285,7 +285,7 @@ body 元素里面的内容将是你在浏览器窗口中看到的东西，也就
       </script>
   ```
 
-  ![image](../images3/73/06.PNG)
+  ![image](images/images3/73/06.PNG)
 
  ## 响应式
 

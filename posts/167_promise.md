@@ -83,7 +83,7 @@ timeout(100).then((value) => {
 });
 ```
 
-![image](../images5/167/01.PNG)
+![image](images/images5/167/01.PNG)
 
 上面代码中，`timeout`方法返回一个`Promise`实例，表示一段时间以后才会发生的结果。过了指定的时间（`ms`参数）以后，`Promise`实例的状态变为`resolved`，就会触发`then`方法绑定的回调函数。
 

@@ -1,6 +1,6 @@
 # HTTP请求与响应
 
-![image](../images3/83/01.PNG)
+![image](images/images3/83/01.PNG)
 
 ## 如何发请求？
 
@@ -81,7 +81,7 @@ console.log('监听 ' + port + ' 成功\n请用在空中转体720度然后用电
 * request 是请求对象
 * response 是响应对象
 
-![image](../images3/83/02.PNG)
+![image](images/images3/83/02.PNG)
 
 ## 代码逻辑
 

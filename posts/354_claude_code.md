@@ -17,7 +17,7 @@
 
 以 **Cursor** 为例，下载进入后，可以构建如图的开发环境布局：
 
-![img](../images8/354/01.png)
+![img](images/images8/354/01.png)
 
 
 
@@ -35,7 +35,7 @@
 winget install Git.Git
 ```
 
-![img](../images8/354/02.png)
+![img](images/images8/354/02.png)
 
 **步骤 2**：在ide终端输入代码，下载Claude code
 
@@ -73,7 +73,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 claude --version
 ```
 
-![img](../images8/354/03.png)
+![img](images/images8/354/03.png)
 
 ### **方式 2：Agent原生安装（需魔法上网）**
 
@@ -101,7 +101,7 @@ claude --version
 winget install Git.Git
 ```
 
-![img](../images8/354/04.png)
+![img](images/images8/354/04.png)
 
 **步骤 2**：在ide agent输入以下提示词，让agent一条龙搞定Claude code安装
 
@@ -124,7 +124,7 @@ claude --version
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-![img](../images8/354/05.png)
+![img](images/images8/354/05.png)
 
 **步骤 2**：向ide agent输入提示词：
 
@@ -132,7 +132,7 @@ claude --version
 帮我把homebrew加到PATH路径变量里面去
 ```
 
-![img](../images8/354/06.png)
+![img](images/images8/354/06.png)
 
 **步骤 3**：在ide终端输入代码，安装Claude Code
 
@@ -157,25 +157,25 @@ claude --version
 
 **步骤1：**在下载页，根据系统选择对应下载包：
 
-![img](../images8/354/07.png)
+![img](images/images8/354/07.png)
 
 **步骤2：**安装完成后，**务必在打开Claude Code之前**，优先设置CC Switch。在CC Switch的Claude Code页面添加API Key供应商：
 
-![img](../images8/354/08.png)
+![img](images/images8/354/08.png)
 
 **步骤3：**以 **Minimax** 为例，选择对应厂商（中国版），然后填写API Key和Base URL：
 
-![img](../images8/354/09.png)![img](../images8/354/10.png)
+![img](images/images8/354/09.png)![img](images/images8/354/10.png)
 
 
 
 > - 如果不知道Base URL，可以在API Key的官方文档里找到（以[Minimax的官方文档](https://platform.minimaxi.com/docs/guides/models-intro)为例）
 >
-> ![img](../images8/354/11.png)
+> ![img](images/images8/354/11.png)
 
 **步骤4：**选择「启用」设置好的API，CC的大模型配置完成！下一步可以准备打开Claude Code了：
 
-![img](../images8/354/12.png)
+![img](images/images8/354/12.png)
 
 
 
@@ -187,7 +187,7 @@ claude --version
 claude
 ```
 
-![img](../images8/354/13.png)![img](../images8/354/14.png)
+![img](images/images8/354/13.png)![img](images/images8/354/14.png)
 
 
 
@@ -195,11 +195,11 @@ claude
 
 **步骤2：**根据个人喜好设置皮肤与主题，然后一路 `yes` 后，进入CC主界面：
 
-![img](../images8/354/15.png)
+![img](images/images8/354/15.png)
 
 **步骤3：**默认情况下，CC接到任务后会进入 **计划模式（Plan Mode）**：
 
-![img](../images8/354/16.png)
+![img](images/images8/354/16.png)
 
 **步骤4：**使用shift+tab，可以让CC在计划模式、默认模式和Accept Edits模式之间来回切换
 
@@ -221,7 +221,7 @@ claude --dangerously-skip-permissions
    1. **仅同意这一次**的命令执行
    2. **同意**，且该项目之后执行项目依赖安装时，不再询问
    3. **不同意**，再商量
-   4. ![img](../images8/354/17.png)
+   4. ![img](images/images8/354/17.png)
 
 
 
@@ -231,7 +231,7 @@ claude --dangerously-skip-permissions
 
 使用 `@` 指令让CC进行本地文件信息查找：
 
-![img](../images8/354/18.png)
+![img](images/images8/354/18.png)
 
 ### **方式 2：图片**
 
@@ -294,7 +294,7 @@ claude --dangerously-skip-permissions
     /context
     ```
 
-  - ![img](../images8/354/19.png)
+  - ![img](images/images8/354/19.png)
 
 **步骤2:**主动压缩上下文
 
@@ -318,7 +318,7 @@ claude --dangerously-skip-permissions
     帮我配一个 statusLine,显示当前目录+模型+上下文剩余百分比 
     ```
 
-  - ![img](../images8/354/20.png)
+  - ![img](images/images8/354/20.png)
 
 **步骤5:**对话恢复
 
@@ -351,14 +351,14 @@ claude --dangerously-skip-permissions
 
 输入 `/memory` 后，选择「User Memory」进入：
 
-![img](../images8/354/21.png)
+![img](images/images8/354/21.png)
 
 
 
 ## 2. Auto Memory
 
 - 打开Auto Memory：输入`/memory` ，选择「**Auto-memory**」并输入回车开启
-  - ![img](../images8/354/22.png)
+  - ![img](images/images8/354/22.png)
 
   - > 打开以后，我们与CC的工作交互过程中，那些没有显式的主动写进claude.md的一些习惯、错误、经验，都会以自动记忆形式被记录，但仅限于当前项目，不会跨项目产生影响。
 
@@ -380,7 +380,7 @@ claude --dangerously-skip-permissions
 2. **skill合集网站：****lobehub**
 
    1. 大家既可以根据分类去寻找自己需要的skill，也可以直接在精选合集查看推荐的优质skill
-   2. ![img](../images8/354/23.png)
+   2. ![img](images/images8/354/23.png)
 
 3. **想创建自己的skill？**
 
@@ -389,7 +389,7 @@ claude --dangerously-skip-permissions
 4. **下载了skill怎么装？**
 
    1. 可根据需求，将skill文件放入**项目级skill**与**全局级skill**的存放**文件夹**
-   2. ![img](../images8/354/24.png)
+   2. ![img](images/images8/354/24.png)
 
 
 
@@ -426,42 +426,42 @@ claude --dangerously-skip-permissions
 
 1. **自动触发：**任务复杂且存在并行可能时，CC会自动派生子Agent并行推进
 2. **手动创建：**通过指令 `/agents` ，在Library界面进行创建
-   1. ![img](../images8/354/25.png)
+   1. ![img](images/images8/354/25.png)
 
 **手动创建步骤：**
 
 **步骤1：**选择创建项目级或全局级子Agent
 
-![img](../images8/354/26.png)
+![img](images/images8/354/26.png)
 
 **步骤2：**选择「AI辅助创建」，让AI根据意图辅助创建
 
-![img](../images8/354/27.png)
+![img](images/images8/354/27.png)
 
 **步骤3：**描述想要的子Agent功能
 
-![img](../images8/354/28.png)
+![img](images/images8/354/28.png)
 
 **步骤4：**决定子Agent工具权限（✓为选中）
 
-![img](../images8/354/29.png)
+![img](images/images8/354/29.png)
 
 **步骤5：**选择Claude的模型
 
 - 一般选Sonnet就可以（如果使用CC Switch配置了模型，选哪个都一样）
-  - ![img](../images8/354/30.png)
+  - ![img](images/images8/354/30.png)
 
 **步骤6：**为子Agent挑选区别于主Agent的颜色
 
 - 选个好看的颜色
-  - ![img](../images8/354/31.png)
+  - ![img](images/images8/354/31.png)
 
 **步骤7:**调用与管理子Agent
 
 - 输入 `/agents`，在Library下选择已创建的项目级子Agent
-  - ![img](../images8/354/32.png)
+  - ![img](images/images8/354/32.png)
 - 根据需求对子Agent进行相应操作
-  - ![img](../images8/354/33.png)
+  - ![img](images/images8/354/33.png)
 
 
 
@@ -484,11 +484,11 @@ claude --dangerously-skip-permissions
 
 **步骤1：**通过指令 `/plugin` 进入插件管理界面
 
-![img](../images8/354/34.png)
+![img](images/images8/354/34.png)
 
 **步骤2：**在插件管理界面，可以收录下载钟意的插件，或管理已下载插件
 
-![img](../images8/354/35.png)![img](../images8/354/36.png)
+![img](images/images8/354/35.png)![img](images/images8/354/36.png)
 
 
 

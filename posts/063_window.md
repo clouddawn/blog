@@ -16,9 +16,9 @@ function f(){} 等价于 var f = new Function()
 
 
 
-![image](../images2/65/n1.PNG)
+![image](images/images2/65/n1.PNG)
 
-![image](../images2/65/n2.PNG)
+![image](images/images2/65/n2.PNG)
 
 ## 关于 window
 

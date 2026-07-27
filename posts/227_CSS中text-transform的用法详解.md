@@ -60,5 +60,5 @@ text-transform: full-width;
 }
 ```
 
-![image](../images6/227/01.png)
+![image](images/images6/227/01.png)
 
