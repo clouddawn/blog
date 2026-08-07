@@ -9,3 +9,6 @@ Thumbs.db
 # Temp
 *.tmp
 ~$*
+
+# Local Claude config
+.claude/
